@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "concurrently \"nuxt dev\" \"json-server --watch db.json --port 3001\"",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.12.0",
+    "@nuxt/image": "^1.10.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "daisyui": "^5.0.25",
+    "json-server": "^1.0.0-beta.3",
+    "nuxt": "^3.16.2",
+    "tailwindcss": "^4.1.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
