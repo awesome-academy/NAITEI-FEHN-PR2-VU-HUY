@@ -1,13 +1,146 @@
+<script setup>
+import { NuxtLink } from '#components';
+import { ref } from 'vue';
+
+const isNavOpen = ref(false);
+const isSearchOpen = ref(false);
+const query = ref('');
+
+const toggleMobileNav = () => {
+  isNavOpen.value = !isNavOpen.value;
+};
+
+const toggleSearch = () => {
+  isSearchOpen.value = !isSearchOpen.value;
+};
+
+const resetQuery = () => {
+  query.value = '';
+}
+
+const isAuthenticated = computed(() => {
+  const storedUser = localStorage.getItem('user') || sessionStorage.getItem('user');
+  return storedUser ? true : false;
+})
+</script>
+
 <template>
-  <header class="bg-gray-800 text-white">
-    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold">My Nuxt App</div>
-      
-      <ul class="flex space-x-6">
-        <li><NuxtLink to="#" class="hover:text-gray-300">Home</NuxtLink></li>
-        <li><NuxtLink to="#" class="hover:text-gray-300">About</NuxtLink></li>
-        <li><NuxtLink to="#" class="hover:text-gray-300">Contact</NuxtLink></li>
+  <header class="text-white">
+    <nav class="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center justify-center md:hidden">
+        <Icon
+          name="material-symbols:search"
+          size="28px"
+          class="hover:opacity-70 cursor-pointer"
+          @click="toggleSearch"
+        />
+      </div>
+      <NuxtLink to="/" class="font-bold text-3xl font-mono">ODEON</NuxtLink>
+
+      <ul class="hidden md:flex items-start p-4 md:space-x-8 lg:space-x-10">
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+        </li>
       </ul>
+
+      <div class="flex justify-center items-center">
+        <NuxtLink
+          v-if="!isAuthenticated"
+          to="/login"
+          class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold"
+        >
+          Login
+        </NuxtLink>
+        <div v-else>
+          <NuxtLink to="/profile" class="mr-3">
+            <UAvatar
+              src="../public/avatar-placeholder.png"
+              icon="material-symbols:person"
+              size="md"
+            />
+          </NuxtLink>
+          <NuxtLink to="/logout" class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold">Sign out</NuxtLink>
+        </div>
+        <div class="hidden md:flex items-center justify-center">
+          <Icon
+          name="material-symbols:search"
+          size="28px"
+          class="hover:opacity-70 cursor-pointer"
+          @click="toggleSearch"
+          />
+        </div>
+
+        <button @click="toggleMobileNav" class="md:hidden flex justify-center items-center focus:outline-none">
+          <Icon :name="isNavOpen ? 'akar-icons:cross' : 'akar-icons:three-line-horizontal'" size="28px" class="hover:text-blue-400 cursor-pointer" />
+        </button>
+      </div>
     </nav>
+
+    <div
+      v-if="isNavOpen"
+      class="absolute top-[4rem] bg-[radial-gradient(circle_at_center_top,#0a1c3a,#051122_900px,#051122)] left-0 md:hidden w-full text-white shadow-md z-10"
+    >
+      <ul class="flex flex-col items-start p-4 space-y-10">
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+        </li>
+        <li class="mt-10">
+          <NuxtLink v-if="isAuthenticated" to="/logout" class="hover:text-blue-400 hover:font-semibold">Sign out</NuxtLink>
+          <NuxtLink v-else to="/login" class="hover:text-blue-400 hover:font-semibold">Login</NuxtLink>
+        </li>
+      </ul>
+    </div>
+
+    <div
+      v-if="isSearchOpen"
+      class="fixed md:absolute md:max-w-md inset-0 md:top-[4rem] md:right-0 md:bottom-auto md:left-auto md:border md:border-gray-300 bg-gray-900 text-white flex flex-col items-center pt-4 md:py-2 z-50"
+    >
+      <div class="w-full flex justify-between items-center px-4">
+        <div class="flex w-full">
+          <div class="w-full">
+            <input
+              v-model="query"
+              type="text"
+              placeholder="Type here to search"
+              class="w-full bg-transparent text-white placeholder-gray-400 border-b border-gray-500 focus:outline-none py-2"
+            />
+          </div>
+          <button @click="resetQuery" class="flex items-center ml-4 focus:outline-none">
+            <Icon name="akar-icons:cross" size="24px" />
+          </button>
+        </div>
+
+        <button
+          @click="toggleSearch"
+          class="p-4  text-blue-400 hover:text-blue-300 focus:outline-none"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
   </header>
 </template>
