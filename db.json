@@ -1,1 +1,3867 @@
-{}
+{
+  "User": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "123456",
+      "phone": "0123456789",
+      "name": "Nguyen Van A",
+      "role": "user",
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "123456",
+      "phone": "0987654321",
+      "name": "Tran Thi B",
+      "role": "admin",
+      "created_at": "2025-04-17T12:00:00Z",
+      "updated_at": "2025-04-17T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "phone": "0123456789",
+      "name": "Nguyen Van C",
+      "role": "user",
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z"
+    }
+  ],
+  "Movies": [
+    {
+      "id": 1,
+      "title": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Lịch sử, Hành động",
+      "duration": 128,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f31%2f400x633%2D24%2D165808%2D310325%2D29.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "showing",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Lật Mặt 8: Vòng Tay Nắng",
+      "synopsis": "Một bộ phim về sự khác biệt quan điểm giữa ba thế hệ ông bà cha mẹ con cháu. Ai cũng đúng ở góc nhìn của mình nhưng đứng trước hoài bão của tuổi trẻ, cuối cùng thì ai sẽ là người phải nghe theo người còn lại? Và nếu ước mơ của những đứa trẻ bị cho là viển vông, thì cơ hội nào và bao giờ tuổi trẻ mới được tự quyết định tương lai của mình?",
+      "genre": "Tâm lý, Tình cảm",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f18%2flm8%2Dticketnow%2D400x633%2D105511%2D180425%2D39.jpg",
+      "trailer": "https://www.youtube.com/watch?v=H7lgTUcJgBw",
+      "release_date": "2025-04-30",
+      "status": "coming-soon",
+      "casts": ["NSƯT Hữu Châu","Lê Tuấn Khang","NSƯT Kim Phương","Long Đẹp Trai","Tuyết Thu"],
+      "directors": ["Lý Hải"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Cưới Ma Giải Hạn",
+      "synopsis": "Menn, một tên trộm cắp đang làm tay trong cho cảnh sát, đồng thời cũng là một gã trai thẳng chính hiệu. Ngày nọ, Menn vô tình nhặt được một bao lì xì đỏ bí ẩn và bị ràng buộc bởi khế ước siêu nhiên, bắt anh phải kết hôn với một hồn ma. Không dừng lại ở đó, số phận càng trớ trêu hơn khi “vợ” của Menn không chỉ là người cõi âm, mà còn là một “mỹ” vong dễ thương với tư tưởng cấp tiến tên Titi.",
+      "genre": "Hài Hước",
+      "duration": 120,
+      "poster": "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202503/11465_103_100003.jpg",
+      "trailer": "https://www.youtube.com/watch?v=uxlsw0IIIeg",
+      "release_date": "2025-04-11",
+      "status": "showing",
+      "casts": ["Putthipong Assaratanakul","Krit Amnuaydechkorn","Arachaporn Pokinpakorn"],
+      "directors": ["Chayanop Boonprakob"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Tìm Xác: Ma Không Đầu",
+      "synopsis": "Bộ đôi Tiến Luật và Ngô Kiến Huy, với nghề nghiệp \"độc lạ\" hốt xác và lái xe cứu thương, hứa hẹn mang đến những tràng cười không ngớt cho khán giả qua hành trình tìm xác có một không hai trên màn ảnh Việt. Nhờ sự trợ giúp của thế lực tâm linh, họ không chỉ đối mặt với những tình huống \"dở khóc dở cười\" mà còn khám phá ra những bí mật rợn người ẩn sau những thi thể. Liệu họ có hoàn thành nhiệm vụ \"khó nhằn\" này hay sẽ gặp phải những \"biến cố\" nào?",
+      "genre": "Kinh dị, Hài hước",
+      "duration": 119,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f09%2fimage001%2D112444%2D090425%2D25.jpg",
+      "trailer": "https://www.youtube.com/watch?v=0sdwVSeJrbU",
+      "release_date": "2025-04-18",
+      "status": "showing",
+      "casts": ["Tiến Luật","Ngô Kiến Huy","NSND Hồng Vân","NSƯT Hữu Châu","NSƯT Đại Nghĩa"],
+      "directors": ["Bùi Văn Hải"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Mẹ Quỷ Con Ma",
+      "synopsis": "Bị ám ảnh bởi những lời kêu gọi từ bóng tối, Sarah một nữ sinh Trong trường Đạo quyết tâm trở về quê nhà để làm rõ thân phận của mình. Bước chân về làng, nơi giờ đây trở thành địa điểm để phá thai trái phép, Sarah phải đối mặt với sự xa lánh bởi những kẻ không có đức tin. Cô cũng không biết chính sự có mặt của mình đã làm thức tỉnh oan hồn của mẹ cô - người đã bị giết chết trong lúc cố sinh ra cô. Cả ngôi làng giờ đây phải lãnh nghiệp báo mà họ đã gây ra nhiều năm về trước.",
+      "genre": "Kinh dị",
+      "duration": 97,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f16%2fposter%2Danak%2Dkunti%2D70x100%2Dred%2D20241202%2D143128%2D160425%2D93.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-18",
+      "status": "showing",
+      "casts": ["Abun Sungkar","Gisellma Firmansyah","Iwa K. Nita Gunawan","Wavi Zihan"],
+      "directors": ["Man Ki Kwok"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Một Bộ Phim Minecraft",
+      "synopsis": "Chào mừng bạn đến với thế giới của Minecraft, nơi sự sáng tạo không chỉ giúp bạn chế tạo mà còn là yếu tố quan trọng để sống sót! Bốn kẻ lạc lõng - Garrett “The Garbage Man” Garrison (Momoa), Henry (Hansen), Natalie (Myers) và Dawn (Brooks) - bất ngờ gặp rắc rối khi họ bị kéo qua cánh cửa bí ẩn dẫn đến Overworld: một thế giới kỳ lạ được tạo bởi những khối lập phương và phát triển nhờ vào trí tưởng tượng. Để trở về nhà, họ cần phải làm chủ được thế giới này (và bảo vệ nó khỏi những thực thể tà ác như Piglins và Thây Ma) trong khi dấn thân vào chuyến phiêu lưu màu nhiệm với một thợ chế tạo chuyên nghiệp và khó lường - Steve (Black). Chuyến hành trình này sẽ thách thức sự can đảm của cả năm người, thúc đẩy họ tìm lại với những phẩm chất làm nên sự đặc biệt của riêng mình,… đồng thời là những kỹ năng cần thiết để trở lại với thế giới thật.",
+      "genre": "Hành động, Phiêu lưu",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f27%2fposter%2Dminecraft%2D1%2D111444%2D270325%2D61.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "showing",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Oán Linh Nhập Xác",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Kinh dị",
+      "duration": 95,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f01%2f400wx633h%2D131833%2D010425%2D94.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "showing",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Panor: Tà Thuật Huyết Ngãi",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Kinh dị",
+      "duration": 118,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f17%2fposter%2Dta%2Dthuat%2Dhuyet%2Dngai%2D2%2D160232%2D170325%2D85.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "showing",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Pororo: Thám Hiểm Đại Dương Xanh",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Hoạt hình",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f28%2f400x633%2D114754%2D280325%2D84.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "showing",
+      "casts": [],
+      "directors": ["Kim Hyunho","Yoon Jewan"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Biệt Đội Sấm Sét",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Kinh dị, Trinh thám",
+      "duration": 132,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f08%2fanh%2Dchup%2Dman%2Dhinh%2D2025%2D04%2D08%2D150219%2D150330%2D080425%2D58.png",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "coming-soon",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Shin Cậu Bé Bút Chì: Bí Ẩn! Học Viện Hoa Lệ Tenkasu",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Historical, Drama, Vietnam",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f16%2fshin%2Dpink%2Dposter%2Dsocial%2D144300%2D160425%2D60.png",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "coming-soon",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Đêm Thánh: Đội Săn Quỷ",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Historical, Drama, Vietnam",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f11%2f400x633%2D141632%2D110425%2D52.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "coming-soon",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Doraemon: Nobita Và Cuộc Phiêu Lưu Vào Thế Giới Trong Tranh",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Historical, Drama, Vietnam",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f12%2fcopy%2Dof%2D250220%2Ddr25%2Dmain%2Db1%2Dlocalized%2Dembbed%2D164332%2D120325%2D55.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "coming-soon",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": 14,
+      "title": "Chuyện Muông Thú Dạy Bé Cừu Bay",
+      "synopsis": "Địa Đạo: Mặt Trời Trong Bóng Tối là dự án điện ảnh kỷ niệm 50 năm hòa bình thống nhất đất nước, dự kiến khởi chiếu 30.04.2025. Phim do đạo diễn Bùi Thạc Chuyên cầm trịch, với sự tham gia của dàn diễn viên thực lực – Thái Hòa, Quang Tuấn và diễn viên trẻ Hồ Thu Anh. Vào năm 1967, chiến tranh Việt Nam ngày càng khốc liệt. Đội du kích 21 người do BẢY THEO chỉ huy tại căn cứ Bình An Đông trở thành mục tiêu mà quân đội Mỹ TÌM VÀ DIỆT số 1 khi nhận nhiệm vụ bằng mọi giá phải bảo vệ một nhóm thông tin tình báo chiến lược mới đến ẩn náu tại căn cứ. Các cuộc liên lạc vô tuyến điện từ với nhóm tình báo bị quân đội Mỹ phát hiện và định vị, lấy đi lợi thế duy nhất của đội du kích là sự vô hình trong hệ thống địa đạo rộng khắp, phức tạp và bí ẩn. Bộ phim là những câu chuyện đan xen giữa tình đồng đội, tình yêu và khát khao sống ở những người lính. Trên hết, vẫn là nghĩa vụ và sự hi sinh vì Tổ Quốc. Đạo diễn Bùi Thạc Chuyên nung nấu 10 năm trời để chuẩn bị cho phim điện ảnh Địa Đạo, đem câu chuyện huyền thoại về nhân dân miền Nam tài trí thông minh và tinh thần yêu nước ngoan cường ngày ấy lên màn ảnh rộng. Lịch sử đã chứng minh, dẫu cho trên đầu là bom rơi đạn nổ, dưới hầm là không khí đặc quánh đến hít thở cũng khó khăn, chỉ cần trong tim mỗi người chiến sĩ luôn hướng đến ánh sáng tự do của một dân tộc tự do trong tương lai, họ sẽ kiên trì đứng vững mà chiến đấu. Như có mặt trời trong bóng tối luôn soi sáng dẫn đường.",
+      "genre": "Historical, Drama, Vietnam",
+      "duration": 120,
+      "poster": "https://files.betacorp.vn/media%2fimages%2f2025%2f04%2f16%2f400x633%2D143630%2D160425%2D72.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-OGDDtsIBHA",
+      "release_date": "2025-04-04",
+      "status": "coming-soon",
+      "casts": ["Thái Hòa","Quang Tuấn","Diễm Hằng Lamoon","Anh Tú Wilson","Hồ Thu Anh","Uyển Ân"],
+      "directors": ["Bùi Thạc Chuyên"],
+      "ratings": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "user_name": "Nguyen Van A",
+          "content": "Great movie!",
+          "rating": 8.5,
+          "created_at": "2025-04-17T14:00:00Z",
+          "updated_at": "2025-04-17T14:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    }
+  ],
+  "Theaters": [
+    {
+      "id": 1,
+      "name": "Lotte Kosmo",
+      "city": "Hà Nội",
+      "address": "Tầng 2, Kosmo Tây Hồ, 161 Đ. Xuân La, P, Bắc Từ Liêm",
+      "screens": [
+        {
+          "id": 1,
+          "seats": [
+            {
+              "id": 1,
+              "name": "A1",
+              "position": { "x": 1, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 2,
+              "name": "A2",
+              "position": { "x": 1, "y": 4 },
+              "type": "vip"
+            },
+            {
+              "id": 3,
+              "name": "A3",
+              "position": { "x": 1, "y": 5 },
+              "type": "vip"
+            },
+            {
+              "id": 4,
+              "name": "A4",
+              "position": { "x": 1, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 5,
+              "name": "A5",
+              "position": { "x": 1, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 6,
+              "name": "A6",
+              "position": { "x": 1, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 7,
+              "name": "A7",
+              "position": { "x": 1, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 8,
+              "name": "A8",
+              "position": { "x": 1, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 9,
+              "name": "A9",
+              "position": { "x": 1, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 10,
+              "name": "A10",
+              "position": { "x": 1, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 11,
+              "name": "B1",
+              "position": { "x": 2, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 12,
+              "name": "B2",
+              "position": { "x": 2, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 13,
+              "name": "B3",
+              "position": { "x": 2, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 14,
+              "name": "B4",
+              "position": { "x": 2, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 15,
+              "name": "B5",
+              "position": { "x": 2, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 16,
+              "name": "B6",
+              "position": { "x": 2, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 17,
+              "name": "B7",
+              "position": { "x": 2, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 18,
+              "name": "B8",
+              "position": { "x": 2, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 19,
+              "name": "B9",
+              "position": { "x": 2, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 20,
+              "name": "B10",
+              "position": { "x": 2, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 21,
+              "name": "B11",
+              "position": { "x": 2, "y": 111 },
+              "type": "standard"
+            },
+            {
+              "id": 22,
+              "name": "B12",
+              "position": { "x": 2, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 23,
+              "name": "B13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 24,
+              "name": "B14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 25,
+              "name": "C1",
+              "position": { "x": 3, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 26,
+              "name": "C2",
+              "position": { "x": 3, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 27,
+              "name": "C3",
+              "position": { "x": 3, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 28,
+              "name": "C4",
+              "position": { "x": 3, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 29,
+              "name": "C5",
+              "position": { "x": 3, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 30,
+              "name": "C6",
+              "position": { "x": 3, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 31,
+              "name": "C7",
+              "position": { "x": 3, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 32,
+              "name": "C8",
+              "position": { "x": 3, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 33,
+              "name": "C9",
+              "position": { "x": 3, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 34,
+              "name": "C10",
+              "position": { "x": 3, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 35,
+              "name": "C11",
+              "position": { "x": 3, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 36,
+              "name": "C12",
+              "position": { "x": 3, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 37,
+              "name": "C13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 38,
+              "name": "C14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 39,
+              "name": "D1",
+              "position": { "x": 4, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 40,
+              "name": "D2",
+              "position": { "x": 4, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 41,
+              "name": "D3",
+              "position": { "x": 4, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 42,
+              "name": "D4",
+              "position": { "x": 4, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 43,
+              "name": "D5",
+              "position": { "x": 4, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 44,
+              "name": "D6",
+              "position": { "x": 4, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 45,
+              "name": "D7",
+              "position": { "x": 4, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 46,
+              "name": "D8",
+              "position": { "x": 4, "y": 8 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 47,
+              "name": "D9",
+              "position": { "x": 4, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 48,
+              "name": "D10",
+              "position": { "x": 4, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 49,
+              "name": "D11",
+              "position": { "x": 4, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 50,
+              "name": "D12",
+              "position": { "x": 4, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 51,
+              "name": "D13",
+              "position": { "x": 4, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 52,
+              "name": "D14",
+              "position": { "x": 4, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 53,
+              "name": "E1",
+              "position": { "x": 5, "y": 1 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 54,
+              "name": "E2",
+              "position": { "x": 5, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 55,
+              "name": "E3",
+              "position": { "x": 5, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 56,
+              "name": "E4",
+              "position": { "x": 5, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 57,
+              "name": "E5",
+              "position": { "x": 5, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 58,
+              "name": "E6",
+              "position": { "x": 5, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 59,
+              "name": "E7",
+              "position": { "x": 5, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 60,
+              "name": "E8",
+              "position": { "x": 5, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 61,
+              "name": "E9",
+              "position": { "x": 5, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 62,
+              "name": "E10",
+              "position": { "x": 5, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 63,
+              "name": "E11",
+              "position": { "x": 5, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 64,
+              "name": "E12",
+              "position": { "x": 5, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 65,
+              "name": "E13",
+              "position": { "x": 5, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 66,
+              "name": "E14",
+              "position": { "x": 5, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 67,
+              "name": "F1",
+              "position": { "x": 6, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 68,
+              "name": "F2",
+              "position": { "x": 6, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 69,
+              "name": "F3",
+              "position": { "x": 6, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 70,
+              "name": "F4",
+              "position": { "x": 6, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 71,
+              "name": "F5",
+              "position": { "x": 6, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 72,
+              "name": "F6",
+              "position": { "x": 6, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 73,
+              "name": "F7",
+              "position": { "x": 6, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 74,
+              "name": "F8",
+              "position": { "x": 6, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 75,
+              "name": "F9",
+              "position": { "x": 6, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 76,
+              "name": "F10",
+              "position": { "x": 6, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 77,
+              "name": "F11",
+              "position": { "x": 6, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 78,
+              "name": "F12",
+              "position": { "x": 6, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 79,
+              "name": "F13",
+              "position": { "x": 6, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 80,
+              "name": "F14",
+              "position": { "x": 6, "y": 14 },
+              "type": "standard"
+            }
+          ],
+          "created_at": "2025-04-17T09:00:00Z",
+          "updated_at": "2025-04-17T09:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T09:00:00Z",
+      "updated_at": "2025-04-17T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Lotte Tây Hồ",
+      "city": "Hanoi",
+      "address": "272 Đ. Võ Chí Công, Phú Thượng, Tây Hồ",
+      "screens": [
+        {
+          "id": 1,
+          "seats": [
+            {
+              "id": 1,
+              "name": "A1",
+              "position": { "x": 1, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 2,
+              "name": "A2",
+              "position": { "x": 1, "y": 4 },
+              "type": "vip"
+            },
+            {
+              "id": 3,
+              "name": "A3",
+              "position": { "x": 1, "y": 5 },
+              "type": "vip"
+            },
+            {
+              "id": 4,
+              "name": "A4",
+              "position": { "x": 1, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 5,
+              "name": "A5",
+              "position": { "x": 1, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 6,
+              "name": "A6",
+              "position": { "x": 1, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 7,
+              "name": "A7",
+              "position": { "x": 1, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 8,
+              "name": "A8",
+              "position": { "x": 1, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 9,
+              "name": "A9",
+              "position": { "x": 1, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 10,
+              "name": "A10",
+              "position": { "x": 1, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 11,
+              "name": "B1",
+              "position": { "x": 2, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 12,
+              "name": "B2",
+              "position": { "x": 2, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 13,
+              "name": "B3",
+              "position": { "x": 2, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 14,
+              "name": "B4",
+              "position": { "x": 2, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 15,
+              "name": "B5",
+              "position": { "x": 2, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 16,
+              "name": "B6",
+              "position": { "x": 2, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 17,
+              "name": "B7",
+              "position": { "x": 2, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 18,
+              "name": "B8",
+              "position": { "x": 2, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 19,
+              "name": "B9",
+              "position": { "x": 2, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 20,
+              "name": "B10",
+              "position": { "x": 2, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 21,
+              "name": "B11",
+              "position": { "x": 2, "y": 111 },
+              "type": "standard"
+            },
+            {
+              "id": 22,
+              "name": "B12",
+              "position": { "x": 2, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 23,
+              "name": "B13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 24,
+              "name": "B14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 25,
+              "name": "C1",
+              "position": { "x": 3, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 26,
+              "name": "C2",
+              "position": { "x": 3, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 27,
+              "name": "C3",
+              "position": { "x": 3, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 28,
+              "name": "C4",
+              "position": { "x": 3, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 29,
+              "name": "C5",
+              "position": { "x": 3, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 30,
+              "name": "C6",
+              "position": { "x": 3, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 31,
+              "name": "C7",
+              "position": { "x": 3, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 32,
+              "name": "C8",
+              "position": { "x": 3, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 33,
+              "name": "C9",
+              "position": { "x": 3, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 34,
+              "name": "C10",
+              "position": { "x": 3, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 35,
+              "name": "C11",
+              "position": { "x": 3, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 36,
+              "name": "C12",
+              "position": { "x": 3, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 37,
+              "name": "C13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 38,
+              "name": "C14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 39,
+              "name": "D1",
+              "position": { "x": 4, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 40,
+              "name": "D2",
+              "position": { "x": 4, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 41,
+              "name": "D3",
+              "position": { "x": 4, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 42,
+              "name": "D4",
+              "position": { "x": 4, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 43,
+              "name": "D5",
+              "position": { "x": 4, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 44,
+              "name": "D6",
+              "position": { "x": 4, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 45,
+              "name": "D7",
+              "position": { "x": 4, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 46,
+              "name": "D8",
+              "position": { "x": 4, "y": 8 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 47,
+              "name": "D9",
+              "position": { "x": 4, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 48,
+              "name": "D10",
+              "position": { "x": 4, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 49,
+              "name": "D11",
+              "position": { "x": 4, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 50,
+              "name": "D12",
+              "position": { "x": 4, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 51,
+              "name": "D13",
+              "position": { "x": 4, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 52,
+              "name": "D14",
+              "position": { "x": 4, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 53,
+              "name": "E1",
+              "position": { "x": 5, "y": 1 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 54,
+              "name": "E2",
+              "position": { "x": 5, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 55,
+              "name": "E3",
+              "position": { "x": 5, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 56,
+              "name": "E4",
+              "position": { "x": 5, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 57,
+              "name": "E5",
+              "position": { "x": 5, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 58,
+              "name": "E6",
+              "position": { "x": 5, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 59,
+              "name": "E7",
+              "position": { "x": 5, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 60,
+              "name": "E8",
+              "position": { "x": 5, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 61,
+              "name": "E9",
+              "position": { "x": 5, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 62,
+              "name": "E10",
+              "position": { "x": 5, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 63,
+              "name": "E11",
+              "position": { "x": 5, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 64,
+              "name": "E12",
+              "position": { "x": 5, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 65,
+              "name": "E13",
+              "position": { "x": 5, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 66,
+              "name": "E14",
+              "position": { "x": 5, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 67,
+              "name": "F1",
+              "position": { "x": 6, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 68,
+              "name": "F2",
+              "position": { "x": 6, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 69,
+              "name": "F3",
+              "position": { "x": 6, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 70,
+              "name": "F4",
+              "position": { "x": 6, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 71,
+              "name": "F5",
+              "position": { "x": 6, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 72,
+              "name": "F6",
+              "position": { "x": 6, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 73,
+              "name": "F7",
+              "position": { "x": 6, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 74,
+              "name": "F8",
+              "position": { "x": 6, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 75,
+              "name": "F9",
+              "position": { "x": 6, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 76,
+              "name": "F10",
+              "position": { "x": 6, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 77,
+              "name": "F11",
+              "position": { "x": 6, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 78,
+              "name": "F12",
+              "position": { "x": 6, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 79,
+              "name": "F13",
+              "position": { "x": 6, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 80,
+              "name": "F14",
+              "position": { "x": 6, "y": 14 },
+              "type": "standard"
+            }
+          ],
+          "created_at": "2025-04-17T09:00:00Z",
+          "updated_at": "2025-04-17T09:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T09:00:00Z",
+      "updated_at": "2025-04-17T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Lotte Hà Đông",
+      "city": "Hà Nội",
+      "address": "Tầng 4, Mê Linh Plaza Hà Đông, Đ. Tô Hiệu, P, Hà Đông",
+      "screens": [
+        {
+          "id": 1,
+          "seats": [
+            {
+              "id": 1,
+              "name": "A1",
+              "position": { "x": 1, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 2,
+              "name": "A2",
+              "position": { "x": 1, "y": 4 },
+              "type": "vip"
+            },
+            {
+              "id": 3,
+              "name": "A3",
+              "position": { "x": 1, "y": 5 },
+              "type": "vip"
+            },
+            {
+              "id": 4,
+              "name": "A4",
+              "position": { "x": 1, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 5,
+              "name": "A5",
+              "position": { "x": 1, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 6,
+              "name": "A6",
+              "position": { "x": 1, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 7,
+              "name": "A7",
+              "position": { "x": 1, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 8,
+              "name": "A8",
+              "position": { "x": 1, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 9,
+              "name": "A9",
+              "position": { "x": 1, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 10,
+              "name": "A10",
+              "position": { "x": 1, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 11,
+              "name": "B1",
+              "position": { "x": 2, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 12,
+              "name": "B2",
+              "position": { "x": 2, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 13,
+              "name": "B3",
+              "position": { "x": 2, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 14,
+              "name": "B4",
+              "position": { "x": 2, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 15,
+              "name": "B5",
+              "position": { "x": 2, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 16,
+              "name": "B6",
+              "position": { "x": 2, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 17,
+              "name": "B7",
+              "position": { "x": 2, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 18,
+              "name": "B8",
+              "position": { "x": 2, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 19,
+              "name": "B9",
+              "position": { "x": 2, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 20,
+              "name": "B10",
+              "position": { "x": 2, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 21,
+              "name": "B11",
+              "position": { "x": 2, "y": 111 },
+              "type": "standard"
+            },
+            {
+              "id": 22,
+              "name": "B12",
+              "position": { "x": 2, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 23,
+              "name": "B13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 24,
+              "name": "B14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 25,
+              "name": "C1",
+              "position": { "x": 3, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 26,
+              "name": "C2",
+              "position": { "x": 3, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 27,
+              "name": "C3",
+              "position": { "x": 3, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 28,
+              "name": "C4",
+              "position": { "x": 3, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 29,
+              "name": "C5",
+              "position": { "x": 3, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 30,
+              "name": "C6",
+              "position": { "x": 3, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 31,
+              "name": "C7",
+              "position": { "x": 3, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 32,
+              "name": "C8",
+              "position": { "x": 3, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 33,
+              "name": "C9",
+              "position": { "x": 3, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 34,
+              "name": "C10",
+              "position": { "x": 3, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 35,
+              "name": "C11",
+              "position": { "x": 3, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 36,
+              "name": "C12",
+              "position": { "x": 3, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 37,
+              "name": "C13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 38,
+              "name": "C14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 39,
+              "name": "D1",
+              "position": { "x": 4, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 40,
+              "name": "D2",
+              "position": { "x": 4, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 41,
+              "name": "D3",
+              "position": { "x": 4, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 42,
+              "name": "D4",
+              "position": { "x": 4, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 43,
+              "name": "D5",
+              "position": { "x": 4, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 44,
+              "name": "D6",
+              "position": { "x": 4, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 45,
+              "name": "D7",
+              "position": { "x": 4, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 46,
+              "name": "D8",
+              "position": { "x": 4, "y": 8 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 47,
+              "name": "D9",
+              "position": { "x": 4, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 48,
+              "name": "D10",
+              "position": { "x": 4, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 49,
+              "name": "D11",
+              "position": { "x": 4, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 50,
+              "name": "D12",
+              "position": { "x": 4, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 51,
+              "name": "D13",
+              "position": { "x": 4, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 52,
+              "name": "D14",
+              "position": { "x": 4, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 53,
+              "name": "E1",
+              "position": { "x": 5, "y": 1 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 54,
+              "name": "E2",
+              "position": { "x": 5, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 55,
+              "name": "E3",
+              "position": { "x": 5, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 56,
+              "name": "E4",
+              "position": { "x": 5, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 57,
+              "name": "E5",
+              "position": { "x": 5, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 58,
+              "name": "E6",
+              "position": { "x": 5, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 59,
+              "name": "E7",
+              "position": { "x": 5, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 60,
+              "name": "E8",
+              "position": { "x": 5, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 61,
+              "name": "E9",
+              "position": { "x": 5, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 62,
+              "name": "E10",
+              "position": { "x": 5, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 63,
+              "name": "E11",
+              "position": { "x": 5, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 64,
+              "name": "E12",
+              "position": { "x": 5, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 65,
+              "name": "E13",
+              "position": { "x": 5, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 66,
+              "name": "E14",
+              "position": { "x": 5, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 67,
+              "name": "F1",
+              "position": { "x": 6, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 68,
+              "name": "F2",
+              "position": { "x": 6, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 69,
+              "name": "F3",
+              "position": { "x": 6, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 70,
+              "name": "F4",
+              "position": { "x": 6, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 71,
+              "name": "F5",
+              "position": { "x": 6, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 72,
+              "name": "F6",
+              "position": { "x": 6, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 73,
+              "name": "F7",
+              "position": { "x": 6, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 74,
+              "name": "F8",
+              "position": { "x": 6, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 75,
+              "name": "F9",
+              "position": { "x": 6, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 76,
+              "name": "F10",
+              "position": { "x": 6, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 77,
+              "name": "F11",
+              "position": { "x": 6, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 78,
+              "name": "F12",
+              "position": { "x": 6, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 79,
+              "name": "F13",
+              "position": { "x": 6, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 80,
+              "name": "F14",
+              "position": { "x": 6, "y": 14 },
+              "type": "standard"
+            }
+          ],
+          "created_at": "2025-04-17T09:00:00Z",
+          "updated_at": "2025-04-17T09:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T09:00:00Z",
+      "updated_at": "2025-04-17T09:00:00Z"
+    },
+    {
+      "id": 1,
+      "name": "Lotte Thăng Long",
+      "city": "Hanoi",
+      "address": "Tầng 3 Big C, 222 Đ. Trần Duy Hưng, Trung Hoà, Cầu Giấy",
+      "screens": [
+        {
+          "id": 1,
+          "seats": [
+            {
+              "id": 1,
+              "name": "A1",
+              "position": { "x": 1, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 2,
+              "name": "A2",
+              "position": { "x": 1, "y": 4 },
+              "type": "vip"
+            },
+            {
+              "id": 3,
+              "name": "A3",
+              "position": { "x": 1, "y": 5 },
+              "type": "vip"
+            },
+            {
+              "id": 4,
+              "name": "A4",
+              "position": { "x": 1, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 5,
+              "name": "A5",
+              "position": { "x": 1, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 6,
+              "name": "A6",
+              "position": { "x": 1, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 7,
+              "name": "A7",
+              "position": { "x": 1, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 8,
+              "name": "A8",
+              "position": { "x": 1, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 9,
+              "name": "A9",
+              "position": { "x": 1, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 10,
+              "name": "A10",
+              "position": { "x": 1, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 11,
+              "name": "B1",
+              "position": { "x": 2, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 12,
+              "name": "B2",
+              "position": { "x": 2, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 13,
+              "name": "B3",
+              "position": { "x": 2, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 14,
+              "name": "B4",
+              "position": { "x": 2, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 15,
+              "name": "B5",
+              "position": { "x": 2, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 16,
+              "name": "B6",
+              "position": { "x": 2, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 17,
+              "name": "B7",
+              "position": { "x": 2, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 18,
+              "name": "B8",
+              "position": { "x": 2, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 19,
+              "name": "B9",
+              "position": { "x": 2, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 20,
+              "name": "B10",
+              "position": { "x": 2, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 21,
+              "name": "B11",
+              "position": { "x": 2, "y": 111 },
+              "type": "standard"
+            },
+            {
+              "id": 22,
+              "name": "B12",
+              "position": { "x": 2, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 23,
+              "name": "B13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 24,
+              "name": "B14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 25,
+              "name": "C1",
+              "position": { "x": 3, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 26,
+              "name": "C2",
+              "position": { "x": 3, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 27,
+              "name": "C3",
+              "position": { "x": 3, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 28,
+              "name": "C4",
+              "position": { "x": 3, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 29,
+              "name": "C5",
+              "position": { "x": 3, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 30,
+              "name": "C6",
+              "position": { "x": 3, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 31,
+              "name": "C7",
+              "position": { "x": 3, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 32,
+              "name": "C8",
+              "position": { "x": 3, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 33,
+              "name": "C9",
+              "position": { "x": 3, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 34,
+              "name": "C10",
+              "position": { "x": 3, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 35,
+              "name": "C11",
+              "position": { "x": 3, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 36,
+              "name": "C12",
+              "position": { "x": 3, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 37,
+              "name": "C13",
+              "position": { "x": 3, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 38,
+              "name": "C14",
+              "position": { "x": 3, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 39,
+              "name": "D1",
+              "position": { "x": 4, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 40,
+              "name": "D2",
+              "position": { "x": 4, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 41,
+              "name": "D3",
+              "position": { "x": 4, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 42,
+              "name": "D4",
+              "position": { "x": 4, "y": 4 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 43,
+              "name": "D5",
+              "position": { "x": 4, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 44,
+              "name": "D6",
+              "position": { "x": 4, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 45,
+              "name": "D7",
+              "position": { "x": 4, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 46,
+              "name": "D8",
+              "position": { "x": 4, "y": 8 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 47,
+              "name": "D9",
+              "position": { "x": 4, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 48,
+              "name": "D10",
+              "position": { "x": 4, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 49,
+              "name": "D11",
+              "position": { "x": 4, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 50,
+              "name": "D12",
+              "position": { "x": 4, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 51,
+              "name": "D13",
+              "position": { "x": 4, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 52,
+              "name": "D14",
+              "position": { "x": 4, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 53,
+              "name": "E1",
+              "position": { "x": 5, "y": 1 },
+              "type": "standard"
+            }
+            ,
+            {
+              "id": 54,
+              "name": "E2",
+              "position": { "x": 5, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 55,
+              "name": "E3",
+              "position": { "x": 5, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 56,
+              "name": "E4",
+              "position": { "x": 5, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 57,
+              "name": "E5",
+              "position": { "x": 5, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 58,
+              "name": "E6",
+              "position": { "x": 5, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 59,
+              "name": "E7",
+              "position": { "x": 5, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 60,
+              "name": "E8",
+              "position": { "x": 5, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 61,
+              "name": "E9",
+              "position": { "x": 5, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 62,
+              "name": "E10",
+              "position": { "x": 5, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 63,
+              "name": "E11",
+              "position": { "x": 5, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 64,
+              "name": "E12",
+              "position": { "x": 5, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 65,
+              "name": "E13",
+              "position": { "x": 5, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 66,
+              "name": "E14",
+              "position": { "x": 5, "y": 14 },
+              "type": "standard"
+            },
+            {
+              "id": 67,
+              "name": "F1",
+              "position": { "x": 6, "y": 1 },
+              "type": "standard"
+            },
+            {
+              "id": 68,
+              "name": "F2",
+              "position": { "x": 6, "y": 2 },
+              "type": "standard"
+            },
+            {
+              "id": 69,
+              "name": "F3",
+              "position": { "x": 6, "y": 3 },
+              "type": "standard"
+            },
+            {
+              "id": 70,
+              "name": "F4",
+              "position": { "x": 6, "y": 4 },
+              "type": "standard"
+            },
+            {
+              "id": 71,
+              "name": "F5",
+              "position": { "x": 6, "y": 5 },
+              "type": "standard"
+            },
+            {
+              "id": 72,
+              "name": "F6",
+              "position": { "x": 6, "y": 6 },
+              "type": "standard"
+            },
+            {
+              "id": 73,
+              "name": "F7",
+              "position": { "x": 6, "y": 7 },
+              "type": "standard"
+            },
+            {
+              "id": 74,
+              "name": "F8",
+              "position": { "x": 6, "y": 8 },
+              "type": "standard"
+            },
+            {
+              "id": 75,
+              "name": "F9",
+              "position": { "x": 6, "y": 9 },
+              "type": "standard"
+            },
+            {
+              "id": 76,
+              "name": "F10",
+              "position": { "x": 6, "y": 10 },
+              "type": "standard"
+            },
+            {
+              "id": 77,
+              "name": "F11",
+              "position": { "x": 6, "y": 11 },
+              "type": "standard"
+            },
+            {
+              "id": 78,
+              "name": "F12",
+              "position": { "x": 6, "y": 12 },
+              "type": "standard"
+            },
+            {
+              "id": 79,
+              "name": "F13",
+              "position": { "x": 6, "y": 13 },
+              "type": "standard"
+            },
+            {
+              "id": 80,
+              "name": "F14",
+              "position": { "x": 6, "y": 14 },
+              "type": "standard"
+            }
+          ],
+          "created_at": "2025-04-17T09:00:00Z",
+          "updated_at": "2025-04-17T09:00:00Z"
+        }
+      ],
+      "created_at": "2025-04-17T09:00:00Z",
+      "updated_at": "2025-04-17T09:00:00Z"
+    }
+  ],
+  "News": [
+    {
+      "id": 1,
+      "title": "Tìm Xác: Ma Không Đầu - Cơn Sốt Kinh Dị Hài Tháng 4",
+      "content": "Bộ phim Tìm Xác: Ma Không Đầu đang làm mưa làm gió tại các rạp chiếu Việt Nam từ ngày 18/04/2025. Đánh dấu sự trở lại của đạo diễn Bùi Văn Hải, phim kết hợp yếu tố kinh dị và hài hước với sự góp mặt của bộ đôi Tiến Luật và Ngô Kiến Huy. Câu chuyện xoay quanh hành trình \"độc lạ\" của hai nhân vật làm nghề hốt xác và lái xe cứu thương, bất ngờ bị cuốn vào những tình huống dở khóc dở cười khi tìm kiếm một thi thể bí ẩn. Nhờ sự hỗ trợ từ thế lực tâm linh, họ dần khám phá những bí mật rùng rợn. \n Phim được đánh giá cao nhờ diễn xuất duyên dáng và chemistry tự nhiên giữa Tiến Luật và Ngô Kiến Huy. Nếu bạn yêu thích thể loại kinh dị nhưng không quá nặng nề, đây là lựa chọn hoàn hảo. Hãy đặt vé ngay tại các rạp CGV, Lotte Cinema hoặc qua MoMo để không bỏ lỡ",
+      "image_url": "https://d502jbuhuh9wk.cloudfront.net/digital_products/67fdc6efc927d675db5b9461/67fdc7d7005f3240da2c45b3/cover.jpg?v=3",
+      "related_movies": [
+        {
+          "movie_id": 4,
+          "movie_name": "Tìm xác - Ma không đầu"
+        }
+      ],
+      "created_at": "2025-04-17T11:00:00Z",
+      "updated_at": "2025-04-17T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Avatar: The Way of Water - Hành Trình Khám Phá Thế Giới Mới",
+      "content": "Avatar: The Way of Water là phần tiếp theo của bộ phim Avatar nổi tiếng, đưa khán giả trở lại hành trình khám phá Pandora. Với công nghệ hình ảnh tiên tiến và cốt truyện hấp dẫn, bộ phim hứa hẹn sẽ mang đến những trải nghiệm điện ảnh tuyệt vời.",
+      "image_url": "https://variety.com/wp-content/uploads/2022/12/kc2qpjbmc3ktsf96t859pnxf.png?w=1000&h=580&crop=1",
+      "related_movies": [
+        {
+          "movie_id": 5,
+          "movie_name": "Avatar: The Way of Water"
+        }
+      ],
+      "created_at": "2025-04-17T11:00:00Z",
+      "updated_at": "2025-04-17T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Fast & Furious 10 - Cuộc Đua Cuối Cùng",
+      "content": "Fast & Furious 10 là phần tiếp theo trong loạt phim hành động nổi tiếng, tiếp tục theo chân Dominic Toretto và nhóm bạn của anh trong những cuộc đua tốc độ và những pha hành động nghẹt thở.",
+      "image_url": "https://i.imgur.com//gr9KBOV.jpg",
+      "related_movies": [
+        {
+          "movie_id": 6,
+          "movie_name": "Fast & Furious 10"
+        }
+      ],
+      "created_at": "2025-04-17T11:00:00Z",
+      "updated_at": "2025-04-17T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "John Wick: Chapter 4 - Cuộc Chiến Cuối Cùng",
+      "content": "John Wick: Chapter 4 tiếp tục câu chuyện của sát thủ huyền thoại John Wick, người phải đối mặt với những kẻ thù mới và những thử thách khó khăn hơn bao giờ hết.",
+      "image_url": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2022/07/johnwick4-firstlook.jpeg?fit=990%2C557&quality=89&ssl=1",
+      "related_movies": [
+        {
+          "movie_id": 7,
+          "movie_name": "John Wick: Chapter 4"
+        }
+      ],
+      "created_at": "2025-04-17T11:00:00Z",
+      "updated_at": "2025-04-17T11:00:00Z"
+    }
+  ],
+  "Tickets": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_name": "Nguyen Van A",
+      "showtime_id": 1,
+      "seat_code": "A1",
+      "status": "confirmed",
+      "payment_method": "credit_card",
+      "price": 150000,
+      "created_at": "2025-04-17T15:00:00Z",
+      "updated_at": "2025-04-17T15:00:00Z"
+    }
+  ],
+  "Showtimes": [
+    {
+      "id": 1,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-18T19:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 2,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 3,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 4,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 5,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 6,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 7,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 8,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 9,
+      "movie_id": 9,
+      "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-18T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 10,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-19T10:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4", "5"]
+    },
+    {
+      "id": 11,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-19T13:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7"]
+    },
+    {
+      "id": 12,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-19T16:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["8", "9"]
+    },
+    {
+      "id": 13,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 2,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-20T19:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["10", "11"]
+    },
+    {
+      "id": 14,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["12", "13"]
+    },
+    {
+      "id": 15,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["14", "15"]
+    },
+    {
+      "id": 16,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T20:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 17,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19"]
+    },
+    {
+      "id": 18,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 19,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4"]
+    },
+    {
+      "id": 20,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["5", "6"]
+    },
+    {
+      "id": 21,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["7", "8"]
+    },
+    {
+      "id": 22,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["9", "10"]
+    },
+    {
+      "id": 23,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 24,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["13", "14"]
+    },
+    {
+      "id": 25,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["15", "16"]
+    },
+    {
+      "id": 26,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T17:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["17", "18"]
+    },
+    {
+      "id": 27,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["19", "20"]
+    },
+    {
+      "id": 28,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 29,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4"]
+    },
+    {
+      "id": 30,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["5", "6"]
+    },
+    {
+      "id": 31,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["7", "8"]
+    },
+    {
+      "id": 32,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["9", "10"]
+    },
+    {
+      "id": 33,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 34,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["13", "14"]
+    },
+    {
+      "id": 35,
+      "movie_id": 9,
+      "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["15", "16"]
+    },
+    {
+      "id": 36,
+      "movie_id": 9,
+      "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-19T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["17", "18"]
+    },
+    {
+      "id": 37,
+      "movie_id": 9,
+      "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-20T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["19", "20"]
+    },
+    {
+      "id": 38,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-21T10:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 39,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-21T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4"]
+    },
+    {
+      "id": 40,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-21T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["5", "6"]
+    },
+    {
+      "id": 41,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-22T10:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2", "3"]
+    },
+    {
+      "id": 42,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-22T13:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["4", "5"]
+    },
+    {
+      "id": 43,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 1,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-22T16:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7", "8"]
+    },
+    {
+      "id": 44,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 2,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-23T19:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["9", "10"]
+    },
+    {
+      "id": 45,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 2,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-24T10:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12", "13"]
+    },
+    {
+      "id": 46,
+      "movie_id": 1,
+      "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "screen_id": 3,
+      "amenities": ["3D", "Phụ đề"],
+      "showtime": "2025-04-25T13:00:00Z",
+      "price": {
+        "standard": 120000,
+        "vip": 200000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["14", "15"]
+    },
+    {
+      "id": 47,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 48,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19", "20"]
+    },
+    {
+      "id": 49,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 50,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4", "5"]
+    },
+    {
+      "id": 51,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7"]
+    },
+    {
+      "id": 52,
+      "movie_id": 2,
+      "movie_name": "Lật Mặt 8: Vòng tay nắng",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["8", "9", "10"]
+    },
+    {
+      "id": 53,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 54,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["13", "14", "15"]
+    },
+    {
+      "id": 55,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 56,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19"]
+    },
+    {
+      "id": 57,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2", "3"]
+    },
+    {
+      "id": 58,
+      "movie_id": 3,
+      "movie_name": "Cưới Ma Giải Hạn",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["4", "5"]
+    },
+    {
+      "id": 59,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7", "8"]
+    },
+    {
+      "id": 60,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["9", "10"]
+    },
+    {
+      "id": 61,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12", "13"]
+    },
+    {
+      "id": 62,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["14", "15"]
+    },
+    {
+      "id": 63,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 64,
+      "movie_id": 4,
+      "movie_name": "Tìm xác - Ma không đầu",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19", "20"]
+    },
+    {
+      "id": 65,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 66,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 4,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4", "5"]
+    },
+    {
+      "id": 67,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7"]
+    },
+    {
+      "id": 68,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["8", "9", "10"]
+    },
+    {
+      "id": 69,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 70,
+      "movie_id": 5,
+      "movie_name": "Mẹ Quỷ Con Ma",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["13", "14", "15"]
+    },
+    {
+      "id": 71,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 72,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 5,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19", "20"]
+    },
+    {
+      "id": 73,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 74,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4", "5"]
+    },
+    {
+      "id": 75,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7"]
+    },
+    {
+      "id": 76,
+      "movie_id": 6,
+      "movie_name": "Một Bộ Phim Minecraft",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["8", "9", "10"]
+    },
+    {
+      "id": 77,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    },
+    {
+      "id": 78,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 1,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["13", "14", "15"]
+    },
+    {
+      "id": 79,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T16:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["16", "17"]
+    },
+    {
+      "id": 80,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T21:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["18", "19", "20"]
+    },
+    {
+      "id": 81,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-24T11:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["1", "2"]
+    },
+    {
+      "id": 82,
+      "movie_id": 7,
+      "movie_name": "Oán Linh Nhập Xác",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-25T14:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["3", "4", "5"]
+    },
+    {
+      "id": 83,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T10:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["6", "7"]
+    },
+    {
+      "id": 84,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 2,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-22T13:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["8", "9", "10"]
+    },
+    {
+      "id": 85,
+      "movie_id": 8,
+      "movie_name": "Panor: Tà Thuật Huyết Ngãi",
+      "screen_id": 3,
+      "amenities": ["IMAX", "Phụ đề"],
+      "showtime": "2025-04-23T19:00:00Z",
+      "price": {
+        "standard": 150000,
+        "vip": 250000
+      },
+      "created_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-04-17T10:00:00Z",
+      "seat_reservations": ["11", "12"]
+    }
+  ],
+  "Promotions": [
+    {
+      "id": 1,
+      "title": "U22 MoMo Movie Deal",
+      "description": "ĐẶT VÉ BETA CINEMAS, MOMO LIỀN! 🚀 MUA VÉ U22 THANH TOÁN BẰNG MOMO TẠI BETA CINEMAS! Giá vé ưu đãi nay còn có thêm hình thức thanh toán quốc dân MoMo! Ngại gì mà không ra rạp ngay từ hôm nay để trải nghiệm sự tiện lợi này! 🔥 Ưu đãi với khách hàng có thẻ học sinh sinh viên, trẻ em cao dưới 1,3m và người trên 55 tuổi. 🎊 40K cho phim 2D, 60k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang, Thanh Hóa, Thái Nguyên. 🎊 40k (thứ 2-4-5-6) & 50k (thứ 7-CN) cho phim 2D, 60k (thứ 2-4-5-6) & 70k (thứ 7-CN) cho phim 3D: Long Khánh. 🎊 45k (thứ 2-5) & 50k (thứ 6-7-CN) cho phim 2D, 65k (thứ 2-5-) & 70k (thứ 6-7-CN) cho phim 3D: Lào Cai. 🎊 45k (từ thứ 2-5) & 55k (thứ 6-7-CN) cho phim 2D, 65k (từ thứ 2-5) & 75k (thứ 6-7-CN) cho phim 3D: Quang Trung. 🎊 45k cho phim 2D, 65k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng, Tân Uyên, Empire Bình Dương. 🎊 50k cho phim 2D, 70k cho phim 3D: Giải Phóng, Xuân Thủy, Tây Sơn. **Điều kiện áp dụng**: Xuất trình thẻ HSSV hoặc CMND/CCCD, bằng lái xe dưới 22 tuổi, mặc đồng phục trường, chiều cao dưới 1m3. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas. Thẻ HSSV phải còn hạn. 1 thẻ HSSV áp dụng cho cả nhóm với phim không giới hạn độ tuổi (phim T13 trở lên cần kiểm tra từng người). Ưu đãi cho người trên 55t cần xuất trình CMND. Không áp dụng đồng thời với khuyến mãi khác, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **ĐẶT VÉ BETA CINEMAS, MOMO LIỀN!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 50,
+      "image": "https://files.betacorp.vn//media/images/2024/09/01/545x415-131203-010924-53.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-18",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Family Movie Night",
+      "description": "CẢ NHÀ CÙNG VUI, RA RẠP BETA CINEMAS! 👨‍👩‍👧‍👦 Đưa cả gia đình đến Beta Cinemas và nhận ưu đãi siêu tiết kiệm! 🔥 Ưu đãi dành cho nhóm từ 4 người, bao gồm trẻ em dưới 1,3m hoặc người trên 55 tuổi. 🎊 35k cho phim 2D, 55k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 40k (thứ 2-5) & 45k (thứ 6-7-CN) cho phim 2D, 60k (thứ 2-5) & 65k (thứ 6-7-CN) cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 45k cho phim 2D, 65k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng, Tân Uyên. **Điều kiện áp dụng**: Nhóm từ 4 người, xuất trình CMND/CCCD cho người trên 55 tuổi hoặc đo chiều cao trẻ em tại quầy. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas. Không áp dụng đồng thời với khuyến mãi khác, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **CÙNG GIA ĐÌNH ĐẾN BETA CINEMAS!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 40,
+      "image": "https://files.betacorp.vn//media/images/2025/04/04/545x415-8-112906-040425-37.png",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-01",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Student Midweek Madness",
+      "description": "SINH VIÊN ƠI, THỨ 4 RẠP RỘN RÀNG! 🎉 Đặt vé tại Beta Cinemas vào thứ 4 để nhận giá siêu hời! 🔥 Ưu đãi dành cho học sinh, sinh viên dưới 22 tuổi. 🎊 30k cho phim 2D, 50k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang, Thanh Hóa. 🎊 35k cho phim 2D, 55k cho phim 3D: Long Khánh, Lào Cai, Quang Trung. 🎊 40k cho phim 2D, 60k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng, Tân Uyên, Giải Phóng. **Điều kiện áp dụng**: Xuất trình thẻ HSSV còn hạn hoặc CMND/CCCD dưới 22 tuổi. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, chỉ áp dụng thứ 4, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **RẠP CHỜ SINH VIÊN!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 60,
+      "image": "https://files.betacorp.vn//media/images/2024/04/16/339090620-769688404468201-6997705945754521027-n-113050-160424-59.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-31",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Senior Citizen Special",
+      "description": "NGƯỜI LỚN TUỔI, VÉ RẺ VUI VẺ! 🌟 Beta Cinemas dành tặng ưu đãi đặc biệt cho khách hàng trên 55 tuổi. 🔥 Giá vé siêu ưu đãi cho phim 2D và 3D! 🎊 35k cho phim 2D, 55k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang, Thanh Hóa, Thái Nguyên. 🎊 40k (thứ 2-5) & 45k (thứ 6-7-CN) cho phim 2D, 60k (thứ 2-5) & 65k (thứ 6-7-CN) cho phim 3D: Long Khánh, Lào Cai. 🎊 45k cho phim 2D, 65k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng, Tân Uyên, Giải Phóng. **Điều kiện áp dụng**: Xuất trình CMND/CCCD xác nhận trên 55 tuổi. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **VUI TUỔI VÀNG TẠI BETA CINEMAS!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 45,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/545x415-member-130929-030424-88.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-06-30",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Kids’ Movie Adventure",
+      "description": "TRẺ EM VUI VẺ, RẠP BETA CHỜ! 🧸 Bé dưới 1,3m được xem phim với giá siêu hời tại Beta Cinemas! 🔥 Ưu đãi dành cho trẻ em đi cùng phụ huynh. 🎊 30k cho phim 2D, 50k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 35k (thứ 2-5) & 40k (thứ 6-7-CN) cho phim 2D, 55k (thứ 2-5) & 60k (thứ 6-7-CN) cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 40k cho phim 2D, 60k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng. **Điều kiện áp dụng**: Đo chiều cao tại quầy, trẻ em phải đi cùng phụ huynh. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **CÙNG BÉ RA RẠP!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 50,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/545x415-t3vv-130807-030424-88.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-15",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Weekend Movie Blast",
+      "description": "CUỐI TUẦN RỰC RỠ CÙNG BETA CINEMAS! 🎥 Cuối tuần rủ bạn bè ra rạp với giá vé ưu đãi! 🔥 Ưu đãi dành cho học sinh, sinh viên dưới 22 tuổi và khách hàng thanh toán qua MoMo. 🎊 40k cho phim 2D, 60k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 45k (thứ 7-CN) cho phim 2D, 65k (thứ 7-CN) cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh, Lào Cai. 🎊 50k cho phim 2D, 70k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng, Giải Phóng. **Điều kiện áp dụng**: Xuất trình thẻ HSSV hoặc CMND/CCCD dưới 22 tuổi, thanh toán qua MoMo. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, chỉ áp dụng thứ 7 và CN, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **CUỐI TUẦN RA RẠP!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 40,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/545x415-mad-sale-day-131034-030424-25.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-31",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Early Bird Special",
+      "description": "DẬY SỚM XEM PHIM, GIÁ SIÊU HỜI! 🌅 Đặt vé cho các suất chiếu trước 12h trưa tại Beta Cinemas! 🔥 Ưu đãi dành cho mọi khách hàng, đặc biệt học sinh, sinh viên và trẻ em dưới 1,3m. 🎊 30k cho phim 2D, 50k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 35k cho phim 2D, 55k cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 40k cho phim 2D, 60k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng. **Điều kiện áp dụng**: Áp dụng cho suất chiếu trước 12h trưa, xuất trình thẻ HSSV hoặc đo chiều cao trẻ em nếu cần. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **SÁNG SỚM RA RẠP!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 55,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/beta-ten-545x415-131321-030424-19.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-06-15",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Group Movie Party",
+      "description": "RỦ HỘI BẠN, XEM PHIM CỰC CHẤT! 🎈 Nhóm từ 5 người trở lên nhận ngay giá vé ưu đãi tại Beta Cinemas! 🔥 Ưu đãi dành cho mọi khách hàng, đặc biệt học sinh, sinh viên dưới 22 tuổi. 🎊 35k cho phim 2D, 55k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 40k (thứ 2-5) & 45k (thứ 6-7-CN) cho phim 2D, 60k (thứ 2-5) & 65k (thứ 6-7-CN) cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 45k cho phim 2D, 65k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng. **Điều kiện áp dụng**: Nhóm từ 5 người, xuất trình thẻ HSSV hoặc CMND/CCCD nếu dưới 22 tuổi. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **RỦ BẠN RA RẠP!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 45,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/giam-gia-5k-10k-545x415-131536-030424-43.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-31",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "MoMo Combo Deal",
+      "description": "XEM PHIM CÓ MOMO, COMBO SIÊU HỜI! 🍿 Thanh toán qua MoMo tại Beta Cinemas để nhận combo vé + bắp nước giá rẻ! 🔥 Ưu đãi dành cho mọi khách hàng. 🎊 50k cho phim 2D + bắp nhỏ, 70k cho phim 3D + bắp nhỏ: Bắc Giang, Biên Hòa, Nha Trang. 🎊 55k (thứ 2-5) & 60k (thứ 6-7-CN) cho phim 2D + bắp nhỏ, 75k (thứ 2-5) & 80k (thứ 6-7-CN) cho phim 3D + bắp nhỏ: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 60k cho phim 2D + bắp nhỏ, 80k cho phim 3D + bắp nhỏ: Mỹ Đình, Thanh Xuân, Đan Phượng. **Điều kiện áp dụng**: Thanh toán qua MoMo tại quầy. **Lưu ý**: Chỉ áp dụng cho thành viên Beta Cinemas, không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **MOMO COMBO ĐỈNH CAO!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 35,
+      "image": "https://files.betacorp.vn//cms/images/2024/04/03/cai-app-545x415-131703-030424-86.jpg",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-05-15",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Loyalty Member Discount",
+      "description": "THÀNH VIÊN BETA CINEMAS, ƯU ĐÃI CỰC ĐỈNH! 🎟️ Thành viên Beta Cinemas nhận ngay giá vé ưu đãi mỗi ngày! 🔥 Ưu đãi dành cho khách hàng có thẻ thành viên. 🎊 35k cho phim 2D, 55k cho phim 3D: Bắc Giang, Biên Hòa, Nha Trang. 🎊 40k (thứ 2-5) & 45k (thứ 6-7-CN) cho phim 2D, 60k (thứ 2-5) & 65k (thứ 6-7-CN) cho phim 3D: Thanh Hóa, Thái Nguyên, Long Khánh. 🎊 45k cho phim 2D, 65k cho phim 3D: Mỹ Đình, Thanh Xuân, Đan Phượng. **Điều kiện áp dụng**: Xuất trình thẻ thành viên Beta Cinemas. **Lưu ý**: Không áp dụng mua vé online, ngày lễ, Tết, suất chiếu đặc biệt hoặc phim ra mắt sớm. **THÀNH VIÊN RA RẠP, GIÁ SIÊU HỜI!** Một chạm có vé: https://bit.ly/MoMo-Movies",
+      "discount_percentage": 40,
+      "image": "https://files.betacorp.vn//media/images/2025/02/17/den-beta-xanh-sm-nha-545x415cm-164506-170225-58.png",
+      "valid_from": "2025-04-18",
+      "valid_to": "2025-06-30",
+      "created_at": "2025-04-17T07:00:00Z",
+      "updated_at": "2025-04-17T07:00:00Z"
+    }
+  ]
+}
