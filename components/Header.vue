@@ -1,10 +1,13 @@
 <script setup>
 import { NuxtLink } from '#components';
-import { ref } from 'vue';
+import { useAuth } from '~/composables/useAuth'
 
 const isNavOpen = ref(false);
 const isSearchOpen = ref(false);
 const query = ref('');
+
+const toast = useToast()
+const { isAuthenticated, logout } = useAuth()
 
 const toggleMobileNav = () => {
   isNavOpen.value = !isNavOpen.value;
@@ -18,14 +21,20 @@ const resetQuery = () => {
   query.value = '';
 }
 
-const isAuthenticated = computed(() => {
-  const storedUser = localStorage.getItem('user') || sessionStorage.getItem('user');
-  return storedUser ? true : false;
-})
+const signOut = () => {
+  logout()
+  toast.add({
+    title: 'Sign out successfully',
+    description: `Signed out.`,
+    color: 'success',
+    icon: 'flat-color-icons:ok',
+  })
+  window.location.href = '/login';
+}
 </script>
 
 <template>
-  <header class="text-white">
+  <header :key="isAuthenticated" class="text-white">
     <nav class="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
       <div class="flex items-center justify-center md:hidden">
         <Icon
@@ -56,23 +65,26 @@ const isAuthenticated = computed(() => {
       </ul>
 
       <div class="flex justify-center items-center">
-        <NuxtLink
-          v-if="!isAuthenticated"
-          to="/login"
-          class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold"
-        >
-          Login
-        </NuxtLink>
-        <div v-else>
-          <NuxtLink to="/profile" class="mr-3">
-            <UAvatar
-              src="../public/avatar-placeholder.png"
-              icon="material-symbols:person"
-              size="md"
-            />
+        <ClientOnly>
+          <NuxtLink
+            v-if="!isAuthenticated"
+            to="/login"
+            class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold"
+          >
+            Login
           </NuxtLink>
-          <NuxtLink to="/logout" class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold">Sign out</NuxtLink>
-        </div>
+          <div v-else class="flex items-center">
+            <NuxtLink to="/profile" class="mr-3">
+              <UAvatar
+                src="../public/avatar-placeholder.png"
+                icon="material-symbols:person"
+                size="md"
+              />
+            </NuxtLink>
+            <span @click="signOut" class="hidden md:block cursor-pointer mr-2 hover:text-blue-400 hover:font-semibold">Sign out</span>
+          </div>
+        </ClientOnly>
+
         <div class="hidden md:flex items-center justify-center">
           <Icon
           name="material-symbols:search"
@@ -109,7 +121,7 @@ const isAuthenticated = computed(() => {
           <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
         </li>
         <li class="mt-10">
-          <NuxtLink v-if="isAuthenticated" to="/logout" class="hover:text-blue-400 hover:font-semibold">Sign out</NuxtLink>
+          <span v-if="isAuthenticated" @click="signOut" class="hover:text-blue-400 hover:font-semibold cursor-pointer">Sign out</span>
           <NuxtLink v-else to="/login" class="hover:text-blue-400 hover:font-semibold">Login</NuxtLink>
         </li>
       </ul>
