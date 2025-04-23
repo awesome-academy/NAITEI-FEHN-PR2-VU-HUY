@@ -7,7 +7,44 @@ const isSearchOpen = ref(false);
 const query = ref('');
 
 const toast = useToast()
-const { isAuthenticated, logout } = useAuth()
+const { isAuthenticated, isAdmin, logout } = useAuth()
+
+const items = ref(!isAdmin.value ?
+  [
+    {
+      label: 'Profile',
+      icon: 'i-lucide-user',
+      to: '/profile'
+    }
+  ] :
+  [
+    {
+      label: 'Profile',
+      icon: 'i-lucide-user',
+      to: '/profile'
+    },
+    {
+      label: 'Statistics',
+      icon: 'i-solar:chart-2-bold',
+      to: '/statistics'
+    },
+    {
+      label: 'Users Management',
+      icon: 'i-clarity:users-solid',
+      to: '/users_management'
+    },
+    {
+      label: 'Movies Management',
+      icon: 'i-material-symbols:movie-rounded',
+      to: '/movies_management'
+    },
+    {
+      label: 'Tickets Management',
+      icon: 'i-ion:ticket',
+      to: '/tickets_management'
+    },
+  ]
+)
 
 const toggleMobileNav = () => {
   isNavOpen.value = !isNavOpen.value;
@@ -29,7 +66,7 @@ const signOut = () => {
     color: 'success',
     icon: 'flat-color-icons:ok',
   })
-  window.location.href = '/login';
+  navigateTo('/login')
 }
 </script>
 
@@ -74,13 +111,24 @@ const signOut = () => {
             Login
           </NuxtLink>
           <div v-else class="flex items-center">
-            <NuxtLink to="/profile" class="mr-3">
+            <UDropdownMenu
+              :items="items"
+              :content="{
+                align: 'end',
+                side: 'bottom',
+                sideOffset: 8
+              }"
+              :ui="{
+                content: 'w-48'
+              }"
+            >
               <UAvatar
                 src="../public/avatar-placeholder.png"
                 icon="material-symbols:person"
                 size="md"
+                class="mr-3 cursor-pointer"
               />
-            </NuxtLink>
+            </UDropdownMenu>
             <span @click="signOut" class="hidden md:block cursor-pointer mr-2 hover:text-blue-400 hover:font-semibold">Sign out</span>
           </div>
         </ClientOnly>
