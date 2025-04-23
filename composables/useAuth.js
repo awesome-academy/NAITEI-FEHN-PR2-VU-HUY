@@ -8,7 +8,6 @@ export const useAuth = () => {
     if (storedUser) {
       try {
         user.value = JSON.parse(storedUser);
-        console.log('Loaded user from localStorage:', user.value);
       } catch (err) {
         console.error('Failed to parse localStorage user:', err);
         localStorage.removeItem('auth_user');
@@ -17,6 +16,7 @@ export const useAuth = () => {
   }
 
   const isAuthenticated = computed(() => !!user.value);
+  const isAdmin = computed(() => isAuthenticated && user?.value?.role === 'admin')
 
   const register = async (name, email, phone, password) => {
     try {
@@ -95,6 +95,7 @@ export const useAuth = () => {
   return {
     user,
     isAuthenticated,
+    isAdmin,
     register,
     login,
     logout,
