@@ -175,7 +175,7 @@ onMounted(fetchMovies)
 </script>
 
 <template>
-  <div class="p-4">
+  <div class="p-4 max-w-6xl mx-auto">
     <PageTitle>MOVIES MANAGEMENT</PageTitle>
     <div v-if="pending" class="text-center text-white py-8">
       Loading...
@@ -290,7 +290,7 @@ onMounted(fetchMovies)
         </form>
       </div>
 
-      <table class="min-w-full rounded-lg shadow-sm text-white text-sm">
+      <table class="min-w-full rounded-lg shadow-sm text-white text-xs lg:text-sm">
         <thead>
           <tr>
             <th class="text-left p-3 border-b">Title</th>
@@ -321,7 +321,7 @@ onMounted(fetchMovies)
                   {
                     label: 'Showtimes',
                     icon: 'material-symbols:calendar-clock-outline',
-                    to: '/movies/showtimes'
+                    to: `/movies/${movie.id}/showtimes`
                   },
                   {
                     label: 'Edit',

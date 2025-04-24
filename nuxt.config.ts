@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   modules: ['@nuxt/icon', '@nuxt/image', '@nuxt/ui', '@vueuse/nuxt'],
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      watch: {
+        ignored: ['**/db.json/**']
+      }
+    }
   },
   css: ["~/assets/css/app.css"],
 })
