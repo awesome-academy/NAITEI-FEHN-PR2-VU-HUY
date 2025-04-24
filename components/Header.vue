@@ -85,7 +85,7 @@ const signOut = () => {
 
       <ul class="hidden md:flex items-start p-4 md:space-x-8 lg:space-x-10">
         <li>
-          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
+          <NuxtLink to="/movies" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
         </li>
         <li>
           <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
