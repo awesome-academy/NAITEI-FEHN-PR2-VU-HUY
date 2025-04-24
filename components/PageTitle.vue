@@ -12,7 +12,7 @@
   position: absolute;
   bottom: 0;
   width: 80px;
-  height: 3px;
+  height: 5px;
   border-top: solid 1px #0068c8;
   border-bottom: solid 1px #0068c8;
   left: calc((100% - 80px) / 2);

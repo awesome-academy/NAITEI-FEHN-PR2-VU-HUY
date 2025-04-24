@@ -1,5 +1,5 @@
 <template>
-  <div class="group relative">
+  <div class="group relative w-full h-full">
     <NuxtLink :to="`/movies/${movie.id}`" class="block">
       <div class="aspect-[2/3] rounded overflow-hidden bg-gray-800 relative">
         <NuxtImg 
