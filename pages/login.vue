@@ -38,6 +38,9 @@ const keepSignedIn = ref(false)
 const { login } = useAuth()
 const toast = useToast()
 
+const route = useRoute()
+const returnUrl = computed(() => route.query.returnUrl || '/')
+
 const handleLogin = async () => {
   const { success, error, user } = await login(email.value, password.value, keepSignedIn.value)
 
@@ -48,7 +51,8 @@ const handleLogin = async () => {
       color: 'success',
       icon: 'flat-color-icons:ok',
     })
-    window.location.href = '/'
+    
+    navigateTo(returnUrl.value)
   } else {
     toast.add({
       title: 'Login Failed',

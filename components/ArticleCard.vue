@@ -12,7 +12,7 @@
       <h3 class="text-lg font-bold mb-2">{{ article.title }}</h3>
       <p class="mb-3">{{ article.summary }}</p>
       <p class="mb-3">Last updated {{ formatDate(article.updated_at)   }}</p>
-      <NuxtLink :to="`/news/${article.id}`" class="text-blue-400 font-[600] hover:text-blue-300">Read the full article</NuxtLink>
+      <NuxtLink :to="`/new/${article.id}`" class="text-blue-400 font-[600] hover:text-blue-300">Read the full article</NuxtLink>
     </div>
   </div>
 </template>

@@ -14,8 +14,6 @@
         @click="(selectDate(date))"
       >
         <span class="text-md font-semibold">{{ date.day }}</span>
-        <span class="text-md font-semibold">{{ date.number }}</span>
-        <span class="text-md font-semibold">{{ date.month }}</span>
       </div>
     </div>
   </div>
@@ -26,13 +24,13 @@ const emit = defineEmits(['date-selected']);
 
 const dates = ref([
   { day: 'Today', number: '17', month: 'Apr', active: true },
-  { day: 'Fri', number: '18', month: 'Apr', active: false },
-  { day: 'Sat', number: '19', month: 'Apr', active: false },
-  { day: 'Sun', number: '20', month: 'Apr', active: false },
-  { day: 'Mon', number: '21', month: 'Apr', active: false },
-  { day: 'Tue', number: '22', month: 'Apr', active: false },
-  { day: 'Wed', number: '23', month: 'Apr', active: false },
-  { day: 'Thu', number: '24', month: 'Apr', active: false }
+  { day: 'Sat', number: '18', month: 'Apr', active: false },
+  { day: 'Sun', number: '19', month: 'Apr', active: false },
+  { day: 'Mon', number: '20', month: 'Apr', active: false },
+  { day: 'Tue', number: '21', month: 'Apr', active: false },
+  { day: 'Wed', number: '22', month: 'Apr', active: false },
+  { day: 'Thu', number: '23', month: 'Apr', active: false },
+  { day: 'Fri', number: '24', month: 'Apr', active: false }
 ]);
 
 const selectDate = (date) => {
