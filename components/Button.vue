@@ -3,6 +3,10 @@ defineProps({
   disabled: {
     type: Boolean,
     default: false
+  },
+  clipPathSize: {
+    type: String,
+    default: '16px'
   }
 })
 </script>
@@ -24,6 +28,6 @@ defineProps({
 
 <style scoped>
 .clip-button {
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 95% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - v-bind(clipPathSize)), calc(100% - v-bind(clipPathSize)) 100%, 0% 100%);
 }
 </style>
