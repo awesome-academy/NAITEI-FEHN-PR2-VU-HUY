@@ -38,7 +38,7 @@ export const useAuth = () => {
 
       const { error } = await useFetch('http://localhost:3001/User', {
         method: 'POST',
-        body: { name, email, phone, password, role: "user", created_at: currentTimestamp, updated_at: currentTimestamp},
+        body: { name, email, phone, password, role: "user", status: "active", created_at: currentTimestamp, updated_at: currentTimestamp},
       });
 
       if (error.value) {
