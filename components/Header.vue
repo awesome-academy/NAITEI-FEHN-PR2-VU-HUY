@@ -68,7 +68,12 @@ const items = ref(!isAdmin.value ?
       label: 'Profile',
       icon: 'i-lucide-user',
       to: '/profile'
-    }
+    },
+    {
+      label: 'Your tickets',
+      icon: 'i-ion:ticket',
+      to: '/tickets/'
+    },
   ] :
   [
     {
@@ -79,22 +84,22 @@ const items = ref(!isAdmin.value ?
     {
       label: 'Statistics',
       icon: 'i-solar:chart-2-bold',
-      to: '/statistics'
+      to: '/admin/statistics'
     },
     {
       label: 'Users Management',
       icon: 'i-clarity:users-solid',
-      to: '/users_management'
+      to: '/admin/users_management'
     },
     {
       label: 'Movies Management',
       icon: 'i-material-symbols:movie-rounded',
-      to: '/movies_management'
+      to: '/admin/movies_management'
     },
     {
       label: 'Tickets Management',
       icon: 'i-ion:ticket',
-      to: '/tickets_management'
+      to: '/admin/tickets_management'
     },
   ]
 )

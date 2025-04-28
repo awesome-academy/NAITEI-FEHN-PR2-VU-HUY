@@ -56,7 +56,7 @@ export const useAuth = () => {
   const login = async (email, password) => {
     try {
       const { data, error } = await useFetch(
-        `http://localhost:3001/User?email=${email}&password=${password}`,
+        `http://localhost:3001/Users?email=${email}&password=${password}`,
         { method: 'GET' }
       );
 

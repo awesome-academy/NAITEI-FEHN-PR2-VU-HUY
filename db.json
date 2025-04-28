@@ -9,7 +9,7 @@
       "role": "user",
       "status": "active",
       "created_at": "2025-04-17T10:00:00Z",
-      "updated_at": "2025-04-24T09:40:50.590Z"
+      "updated_at": "2025-04-25T03:17:20.528Z"
     },
     {
       "id": "2",
@@ -408,7 +408,7 @@
       "name": "Lotte Kosmo",
       "description": "Lịch chiếu phim Lotte Kosmo Tây Hồ - rạp Lotte toàn quốc đầy đủ & tiện lợi nhất. Rạp Lotte Kosmo Tây Hồ nằm ở Kosmo Tây Hồ - Xuân La, được xây dựng với tiêu chuẩn rạp Hollywood, chuẩn âm thanh Dolby 7.1, màn hình lớn, sắc nét. Lotte Kosmo Tây Hồ là 1 trong nhiều rạp chiếu phim của Lotte cinema ra mắt tại Hà Nội trong năm 2019. Lotte Kosmo Tây Hồ nằm trong khu phức hợp dân cư - dịch vụ nhộp nhịp với 3 tòa nhà.",
       "location": {
-        "lat": 21.076091255692376, 
+        "lat": 21.076091255692376,
         "lng": 105.81268882209055
       },
       "city": "Hà Nội",
@@ -3368,7 +3368,7 @@
         "lng": 105.783
       },
       "city": "Hà Nội",
-      "image": "https://cdn.xanhsm.com/2024/12/6cfdccc0-lotte-cinema-thang-long-12.jpg", 
+      "image": "https://cdn.xanhsm.com/2024/12/6cfdccc0-lotte-cinema-thang-long-12.jpg",
       "address": "Tầng 3 Big C, 222 Đ. Trần Duy Hưng, Trung Hoà, Cầu Giấy",
       "screens": [
         {
@@ -4111,7 +4111,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://mvj.vn/wp-content/uploads/2018/06/lottle-cantavil-quay-ve.jpg", 
+      "image": "https://mvj.vn/wp-content/uploads/2018/06/lottle-cantavil-quay-ve.jpg",
       "address": "Tầng 7, Cantavil Premier, Số 1 đường Song Hành, Xa lộ Hà Nội, P.An Phú, Q.2",
       "screens": [
         {
@@ -4204,7 +4204,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://khenphim.com/wp-content/uploads/2017/06/Lotte-Cinema-Cong-Hoa-sanh-2.jpg", 
+      "image": "https://khenphim.com/wp-content/uploads/2017/06/Lotte-Cinema-Cong-Hoa-sanh-2.jpg",
       "address": "Tầng 4, Pico Plaza, 20 Cộng Hòa, P.12, Q. Tân Bình",
       "screens": [
         {
@@ -4234,7 +4234,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://cdn.xanhsm.com/2025/03/bc78b8cf-rap-chieu-phim-go-vap-2.jpg", 
+      "image": "https://cdn.xanhsm.com/2025/03/bc78b8cf-rap-chieu-phim-go-vap-2.jpg",
       "address": "Lotte Mart, 242 Đ. Nguyễn Văn Lượng, Phường 10, Gò Vấp",
       "screens": [
         {
@@ -4742,15 +4742,81 @@
   "Tickets": [
     {
       "id": "1",
-      "user_id": 1,
+      "user_id": "1",
       "user_name": "Nguyen Van A",
-      "showtime_id": 1,
+      "showtime_id": "1",
       "seat_code": "A1",
       "status": "confirmed",
       "payment_method": "credit_card",
-      "price": 150000,
+      "price": 120000,
+      "type": "standard",
       "created_at": "2025-04-17T15:00:00Z",
       "updated_at": "2025-04-17T15:00:00Z"
+    },
+    {
+      "id": "2",
+      "user_id": "3",
+      "user_name": "Nguyen Van C",
+      "showtime_id": "10",
+      "seat_code": "A1",
+      "status": "confirmed",
+      "payment_method": "cash",
+      "price": 150000,
+      "type": "standard",
+      "created_at": "2025-04-25T03:22:31.013889Z",
+      "updated_at": "2025-04-29T04:02:37.233Z"
+    },
+    {
+      "id": "3",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "4",
+      "seat_code": "A1",
+      "status": "confirmed",
+      "payment_method": "credit_card",
+      "price": 100000,
+      "type": "standard",
+      "created_at": "2025-04-25T03:22:31.014147Z",
+      "updated_at": "2025-04-25T03:22:31.014147Z"
+    },
+    {
+      "id": "4",
+      "user_id": "3",
+      "user_name": "Nguyen Van C",
+      "showtime_id": "3",
+      "seat_code": "B1",
+      "status": "pending",
+      "payment_method": "cash",
+      "price": 150000,
+      "type": "standard",
+      "created_at": "2025-04-25T03:22:31.014319Z",
+      "updated_at": "2025-04-29T03:02:44.193Z"
+    },
+    {
+      "id": "5",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "8",
+      "seat_code": "A1",
+      "status": "cancelled",
+      "payment_method": "credit_card",
+      "price": 150000,
+      "type": "standard",
+      "created_at": "2025-04-25T03:22:31.014483Z",
+      "updated_at": "2025-04-25T03:22:31.014483Z"
+    },
+    {
+      "id": "6",
+      "user_id": "3",
+      "user_name": "Nguyen Van C",
+      "showtime_id": "11",
+      "seat_code": "A1",
+      "status": "pending",
+      "payment_method": "cash",
+      "price": 150000,
+      "type": "standard",
+      "created_at": "2025-04-25T03:22:31.014648Z",
+      "updated_at": "2025-04-25T03:22:31.014648Z"
     }
   ],
   "Showtimes": [
@@ -4770,10 +4836,11 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
-      "id": "2",
+      "id": 2,
       "movie_id": "2",
       "screen_id": 1,
       "showtime": "2025-04-18T21:00",
@@ -4808,7 +4875,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 4,
@@ -4830,7 +4898,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 5,
@@ -4852,7 +4921,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Hà Đông"
     },
     {
       "id": 6,
@@ -4874,7 +4944,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Hà Đông"
     },
     {
       "id": 7,
@@ -4896,7 +4967,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": 8,
@@ -4918,7 +4990,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": 9,
@@ -4940,7 +5013,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 10,
@@ -4962,7 +5036,8 @@
         "1",
         "2"
       ],
-      "theater_id": "3"
+      "theater_id": "3",
+      "theater_name": "Lotte Hà Đông"
     },
     {
       "id": "11",
@@ -4984,7 +5059,8 @@
         "1",
         "2"
       ],
-      "theater_id": "1"
+      "theater_id": "1",
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "12",
@@ -5028,7 +5104,8 @@
         "1",
         "2"
       ],
-      "theater_id": "4"
+      "theater_id": "4",
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": "14",
@@ -5050,7 +5127,8 @@
         "1",
         "2"
       ],
-      "theater_id": "2"
+      "theater_id": "2",
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "15",
@@ -5072,7 +5150,8 @@
         "1",
         "2"
       ],
-      "theater_id": "4"
+      "theater_id": "4",
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": "16",
@@ -5134,7 +5213,8 @@
         "1",
         "2"
       ],
-      "theater_id": "1"
+      "theater_id": "1",
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "19",
@@ -5156,7 +5236,8 @@
         "1",
         "2"
       ],
-      "theater_id": "3"
+      "theater_id": "3",
+      "theater_name": "Lotte Hà Đông"
     },
     {
       "id": "20",
@@ -5178,7 +5259,8 @@
         "1",
         "2"
       ],
-      "theater_id": "4"
+      "theater_id": "4",
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": "21",
@@ -5189,7 +5271,7 @@
         "2D",
         "Phụ đề"
       ],
-      "showtime": "2025-04-17T19:00",
+      "showtime": "2025-04-19T19:00",
       "price": {
         "standard": 150000,
         "vip": 250000
@@ -5200,7 +5282,8 @@
         "1",
         "2"
       ],
-      "theater_id": "2"
+      "theater_id": "2",
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "22",
@@ -5222,7 +5305,8 @@
         "1",
         "2"
       ],
-      "theater_id": "1"
+      "theater_id": "1",
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "23",
@@ -5244,7 +5328,8 @@
         "1",
         "2"
       ],
-      "theater_id": "2"
+      "theater_id": "2",
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "24",
@@ -5266,7 +5351,8 @@
         "1",
         "2"
       ],
-      "theater_id": "2"
+      "theater_id": "2",
+      "theater_name": "Lotte Thăng Long"
     },
     {
       "id": "25",
@@ -5308,7 +5394,8 @@
       "seat_reservations": [
         "8",
         "9"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "87",
@@ -5350,7 +5437,8 @@
       "seat_reservations": [
         "12",
         "13"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "89",
@@ -5372,7 +5460,8 @@
       "seat_reservations": [
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": "90",
@@ -5417,7 +5506,8 @@
       "seat_reservations": [
         "18",
         "19"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "92",
@@ -5439,7 +5529,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "93",
@@ -5461,7 +5552,8 @@
       "seat_reservations": [
         "3",
         "4"
-      ]
+      ],
+      "theater_name": "Lotte Hà Đông"
     },
     {
       "id": "94",
@@ -5483,7 +5575,8 @@
       "seat_reservations": [
         "5",
         "6"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "95",
@@ -5505,7 +5598,8 @@
       "seat_reservations": [
         "7",
         "8"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "96",
@@ -5527,7 +5621,8 @@
       "seat_reservations": [
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "97",
@@ -5549,7 +5644,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "98",
@@ -5571,7 +5667,8 @@
       "seat_reservations": [
         "13",
         "14"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": "99",
@@ -5593,7 +5690,8 @@
       "seat_reservations": [
         "15",
         "16"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 26,
@@ -5615,7 +5713,8 @@
       "seat_reservations": [
         "17",
         "18"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 27,
@@ -5637,7 +5736,8 @@
       "seat_reservations": [
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 28,
@@ -5659,7 +5759,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 29,
@@ -5681,7 +5782,8 @@
       "seat_reservations": [
         "3",
         "4"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 30,
@@ -5703,7 +5805,8 @@
       "seat_reservations": [
         "5",
         "6"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 31,
@@ -5725,7 +5828,8 @@
       "seat_reservations": [
         "7",
         "8"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 32,
@@ -5747,7 +5851,8 @@
       "seat_reservations": [
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 33,
@@ -5769,7 +5874,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 34,
@@ -5791,7 +5897,8 @@
       "seat_reservations": [
         "13",
         "14"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 35,
@@ -5813,7 +5920,8 @@
       "seat_reservations": [
         "15",
         "16"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 36,
@@ -5835,7 +5943,8 @@
       "seat_reservations": [
         "17",
         "18"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 37,
@@ -5857,7 +5966,8 @@
       "seat_reservations": [
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 38,
@@ -5901,7 +6011,8 @@
       "seat_reservations": [
         "3",
         "4"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 40,
@@ -5923,7 +6034,8 @@
       "seat_reservations": [
         "5",
         "6"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 41,
@@ -5946,7 +6058,8 @@
         "1",
         "2",
         "3"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 42,
@@ -5968,7 +6081,8 @@
       "seat_reservations": [
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 43,
@@ -5991,7 +6105,8 @@
         "6",
         "7",
         "8"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 44,
@@ -6013,7 +6128,8 @@
       "seat_reservations": [
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 45,
@@ -6036,7 +6152,8 @@
         "11",
         "12",
         "13"
-      ]
+      ],
+      "theater_name": "Lotte Tây Hồ"
     },
     {
       "id": 46,
@@ -6058,7 +6175,8 @@
       "seat_reservations": [
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 47,
@@ -6080,7 +6198,8 @@
       "seat_reservations": [
         "16",
         "17"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 48,
@@ -6103,7 +6222,8 @@
         "18",
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 49,
@@ -6125,7 +6245,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 50,
@@ -6148,7 +6269,8 @@
         "3",
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 51,
@@ -6170,7 +6292,8 @@
       "seat_reservations": [
         "6",
         "7"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 52,
@@ -6193,7 +6316,8 @@
         "8",
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 53,
@@ -6215,7 +6339,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 54,
@@ -6238,7 +6363,8 @@
         "13",
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 55,
@@ -6260,7 +6386,8 @@
       "seat_reservations": [
         "16",
         "17"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 56,
@@ -6282,7 +6409,8 @@
       "seat_reservations": [
         "18",
         "19"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 57,
@@ -6305,7 +6433,8 @@
         "1",
         "2",
         "3"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 58,
@@ -6327,7 +6456,8 @@
       "seat_reservations": [
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 59,
@@ -6350,7 +6480,8 @@
         "6",
         "7",
         "8"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 60,
@@ -6372,7 +6503,8 @@
       "seat_reservations": [
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 61,
@@ -6380,6 +6512,7 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 4,
       "screen_id": 1,
+
       "amenities": [
         "IMAX",
         "Phụ đề"
@@ -6395,7 +6528,8 @@
         "11",
         "12",
         "13"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 62,
@@ -6417,7 +6551,8 @@
       "seat_reservations": [
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 63,
@@ -6439,7 +6574,8 @@
       "seat_reservations": [
         "16",
         "17"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 64,
@@ -6462,7 +6598,8 @@
         "18",
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 65,
@@ -6484,7 +6621,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 66,
@@ -6507,7 +6645,8 @@
         "3",
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 67,
@@ -6529,7 +6668,8 @@
       "seat_reservations": [
         "6",
         "7"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 68,
@@ -6552,7 +6692,8 @@
         "8",
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 69,
@@ -6574,7 +6715,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 70,
@@ -6597,7 +6739,8 @@
         "13",
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 71,
@@ -6619,7 +6762,8 @@
       "seat_reservations": [
         "16",
         "17"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 72,
@@ -6642,7 +6786,8 @@
         "18",
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 73,
@@ -6664,7 +6809,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 74,
@@ -6687,7 +6833,8 @@
         "3",
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 75,
@@ -6709,7 +6856,8 @@
       "seat_reservations": [
         "6",
         "7"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 76,
@@ -6732,7 +6880,8 @@
         "8",
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 77,
@@ -6754,7 +6903,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 78,
@@ -6777,7 +6927,8 @@
         "13",
         "14",
         "15"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 79,
@@ -6799,7 +6950,8 @@
       "seat_reservations": [
         "16",
         "17"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 80,
@@ -6822,7 +6974,8 @@
         "18",
         "19",
         "20"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 81,
@@ -6844,7 +6997,8 @@
       "seat_reservations": [
         "1",
         "2"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 82,
@@ -6867,7 +7021,8 @@
         "3",
         "4",
         "5"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 83,
@@ -6889,7 +7044,8 @@
       "seat_reservations": [
         "6",
         "7"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 84,
@@ -6912,7 +7068,8 @@
         "8",
         "9",
         "10"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     },
     {
       "id": 85,
@@ -6934,7 +7091,8 @@
       "seat_reservations": [
         "11",
         "12"
-      ]
+      ],
+      "theater_name": "Lotte Kosmo"
     }
   ],
   "Promotions": [
