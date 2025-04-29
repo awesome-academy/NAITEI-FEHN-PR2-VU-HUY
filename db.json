@@ -58,13 +58,11 @@
       ],
       "ratings": [
         {
-          "id": 1,
-          "user_id": 1,
+          "user_id": "1",
           "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
+          "rating": 5,
+          "comment": "First review của Nguyễn Văn A",
+          "date": "2025-04-25T10:20:11.027Z"
         }
       ],
       "is_trending": true,
@@ -91,17 +89,7 @@
       "directors": [
         "Lý Hải"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -124,17 +112,7 @@
       "directors": [
         "Chayanop Boonprakob"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -159,17 +137,7 @@
       "directors": [
         "Bùi Văn Hải"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -193,17 +161,7 @@
       "directors": [
         "Man Ki Kwok"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -229,17 +187,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -265,17 +213,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -301,17 +239,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -331,17 +259,7 @@
         "Kim Hyunho",
         "Yoon Jewan"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -367,17 +285,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -403,17 +311,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -439,17 +337,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -475,17 +363,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": true,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -511,17 +389,7 @@
       "directors": [
         "Bùi Thạc Chuyên"
       ],
-      "ratings": [
-        {
-          "id": 1,
-          "user_id": 1,
-          "user_name": "Nguyen Van A",
-          "content": "Great movie!",
-          "rating": 8.5,
-          "created_at": "2025-04-17T14:00:00Z",
-          "updated_at": "2025-04-17T14:00:00Z"
-        }
-      ],
+      "ratings": [],
       "is_trending": false,
       "created_at": "2025-04-17T08:00:00Z",
       "updated_at": "2025-04-17T08:00:00Z"
@@ -4207,6 +4075,7 @@
   "News": [
     {
       "id": "1",
+      "category": "Vietnam",
       "title": "Tìm Xác: Ma Không Đầu - Cơn Sốt Kinh Dị Hài Tháng 4",
       "content": "Bộ phim Tìm Xác: Ma Không Đầu đang làm mưa làm gió tại các rạp chiếu Việt Nam từ ngày 18/04/2025. Đánh dấu sự trở lại của đạo diễn Bùi Văn Hải, phim kết hợp yếu tố kinh dị và hài hước với sự góp mặt của bộ đôi Tiến Luật và Ngô Kiến Huy. Câu chuyện xoay quanh hành trình \"độc lạ\" của hai nhân vật làm nghề hốt xác và lái xe cứu thương, bất ngờ bị cuốn vào những tình huống dở khóc dở cười khi tìm kiếm một thi thể bí ẩn. Nhờ sự hỗ trợ từ thế lực tâm linh, họ dần khám phá những bí mật rùng rợn. \n Phim được đánh giá cao nhờ diễn xuất duyên dáng và chemistry tự nhiên giữa Tiến Luật và Ngô Kiến Huy. Nếu bạn yêu thích thể loại kinh dị nhưng không quá nặng nề, đây là lựa chọn hoàn hảo. Hãy đặt vé ngay tại các rạp CGV, Lotte Cinema hoặc qua MoMo để không bỏ lỡ",
       "summary": "Tìm Xác: Ma Không Đầu là phim kinh dị hài Việt Nam, kể về hành trình hài hước nhưng rùng rợn của Tiến Luật và Ngô Kiến Huy khi tìm kiếm một thi thể bí ẩn, khởi chiếu từ 18/04/2025.",
@@ -4217,11 +4086,13 @@
           "movie_name": "Tìm xác - Ma không đầu"
         }
       ],
+      "read_time": "5",
       "created_at": "2025-04-17T11:00:00Z",
       "updated_at": "2025-04-17T11:00:00Z"
     },
     {
       "id": "2",
+      "category": "Sci-fi",
       "title": "Avatar: The Way of Water - Hành Trình Khám Phá Thế Giới Mới",
       "content": "Avatar: The Way of Water là phần tiếp theo của bộ phim Avatar nổi tiếng, đưa khán giả trở lại hành trình khám phá Pandora. Với công nghệ hình ảnh tiên tiến và cốt truyện hấp dẫn, bộ phim hứa hẹn sẽ mang đến những trải nghiệm điện ảnh tuyệt vời.",
       "summary": "Avatar: The Way of Water đưa khán giả trở lại Pandora với công nghệ hình ảnh tiên tiến và cốt truyện hấp dẫn, tiếp nối hành trình khám phá thế giới mới.",
@@ -4232,11 +4103,13 @@
           "movie_name": "Avatar: The Way of Water"
         }
       ],
+      "read_time": "5",
       "created_at": "2025-04-17T11:00:00Z",
       "updated_at": "2025-04-17T11:00:00Z"
     },
     {
       "id": "3",
+      "category": "Action",
       "title": "Fast & Furious 10 - Cuộc Đua Cuối Cùng",
       "content": "Fast & Furious 10 là phần tiếp theo trong loạt phim hành động nổi tiếng, tiếp tục theo chân Dominic Toretto và nhóm bạn của anh trong những cuộc đua tốc độ và những pha hành động nghẹt thở.",
       "summary": "Fast & Furious 10 tiếp tục hành trình của Dominic Toretto với những cuộc đua tốc độ và pha hành động kịch tính trong phần mới của loạt phim nổi tiếng.",
@@ -4247,11 +4120,13 @@
           "movie_name": "Fast & Furious 10"
         }
       ],
+      "read_time": "6",
       "created_at": "2025-04-17T11:00:00Z",
       "updated_at": "2025-04-17T11:00:00Z"
     },
     {
       "id": "4",
+      "category": "Action",
       "title": "John Wick: Chapter 4 - Cuộc Chiến Cuối Cùng",
       "content": "John Wick: Chapter 4 tiếp tục câu chuyện của sát thủ huyền thoại John Wick, người phải đối mặt với những kẻ thù mới và những thử thách khó khăn hơn bao giờ hết.",
       "summary": "John Wick: Chapter 4 đưa sát thủ John Wick đối đầu với kẻ thù mới trong những thử thách nghẹt thở, tiếp nối câu chuyện hành động đỉnh cao.",
@@ -4262,8 +4137,332 @@
           "movie_name": "John Wick: Chapter 4"
         }
       ],
+      "read_time": "4",
       "created_at": "2025-04-17T11:00:00Z",
       "updated_at": "2025-04-17T11:00:00Z"
+    },
+    {
+      "id": "5",
+      "category": "Marvel",
+      "title": "Thunderbolts* - Nhóm Siêu Anh Hùng Lập Dị",
+      "content": "Thunderbolts* là bộ phim Marvel mới nhất, ra mắt ngày 02/05/2025, quy tụ dàn nhân vật phản anh hùng như Yelena Belova (Florence Pugh), Red Guardian (David Harbour) và Sentry (Lewis Pullman). Bộ phim xoay quanh một đội ngũ siêu anh hùng bất đắc dĩ được Valentina Allegra de Fontaine triệu tập để thực hiện một nhiệm vụ nguy hiểm. Với phong cách hài hước xen lẫn hành động mãn nhãn, Thunderbolts* hứa hẹn mang đến góc nhìn mới về vũ trụ MCU. Hãy đặt vé tại các rạp CGV, Lotte Cinema hoặc qua Fandango để trải nghiệm!",
+      "summary": "Thunderbolts* (ra mắt 02/05/2025) kể về nhóm phản anh hùng do Yelena Belova dẫn đầu trong nhiệm vụ nguy hiểm, kết hợp hài hước và hành động của MCU.",
+      "image_url": "https://herohaven.co.uk/cdn/shop/articles/Split-image-of-the-members-of-the-Thunderbolts_526ffc53-e52e-464f-a49f-51b77ceb04e5.png?v=1745321881&width=1100",
+      "related_movies": [
+        {
+          "movie_id": 10,
+          "movie_name": "Thunderbolts* - Biệt Đội Sấm Sét"
+        }
+      ],
+      "read_time": "5",
+      "created_at": "2025-04-20T10:00:00Z",
+      "updated_at": "2025-04-20T10:00:00Z"
+    },
+    {
+      "id": "6",
+      "category": "Marvel",
+      "title": "Avengers: Doomsday - Cuộc Chiến Đa Vũ Trụ",
+      "content": "Avengers: Doomsday, dự kiến khởi chiếu tháng 5/2026, là phần phim Avengers tiếp theo với sự trở lại của Chris Hemsworth (Thor), Anthony Mackie (Captain America) và dàn diễn viên hùng hậu. Bộ phim đối đầu với Doctor Doom, một trong những phản diện đáng gờm nhất của Marvel. Cốt truyện tập trung vào cuộc chiến đa vũ trụ, nơi các anh hùng phải hợp sức để ngăn chặn sự hủy diệt. Đừng bỏ lỡ thông tin cập nhật từ Marvel Studios!",
+      "summary": "Avengers: Doomsday (2026) đưa các Avengers đối mặt Doctor Doom trong cuộc chiến đa vũ trụ, với sự trở lại của Thor và Captain America.",
+      "image_url": "https://deadline.com/wp-content/uploads/2025/03/avengers-doomsday-cast.jpg",
+      "related_movies": [
+        {
+          "movie_id": 9,
+          "movie_name": "Avengers: Doomsday"
+        }
+      ],
+      "read_time": "7",
+      "created_at": "2025-04-22T12:00:00Z",
+      "updated_at": "2025-04-22T12:00:00Z"
+    },
+    {
+      "id": "7",
+      "category": "Marvel",
+      "title": "Hulk: Savage Return - Sự Trỗi Dậy Của Quái Thú",
+      "content": "Hulk: Savage Return là dự án mới của Marvel, dự kiến ra mắt cuối 2025, đánh dấu sự trở lại của Mark Ruffalo trong vai Bruce Banner. Bộ phim khám phá trạng thái Savage Hulk, khi Bruce mất kiểm soát và đối mặt với một kẻ thù bí ẩn liên quan đến gamma. Với hiệu ứng hình ảnh đỉnh cao và câu chuyện cảm xúc, phim hứa hẹn làm hài lòng fan của Hulk. Theo dõi Marvel Studios để cập nhật lịch chiếu!",
+      "summary": "Hulk: Savage Return (2025) đưa Bruce Banner trở lại với trạng thái Savage Hulk, đối mặt kẻ thù gamma trong hành trình đầy cảm xúc.",
+      "image_url": "https://i.ytimg.com/vi/moXTCAC9U6A/maxresdefault.jpg",
+      "related_movies": [
+        {
+          "movie_id": 10,
+          "movie_name": "Hulk: Savage Return"
+        }
+      ],
+      "read_time": "6",
+      "created_at": "2025-04-23T09:00:00Z",
+      "updated_at": "2025-04-23T09:00:00Z"
+    },
+    {
+      "id": "8",
+      "category": "Marvel",
+      "title": "Thor: Love and Thunder - Di sản Asgard",
+      "content": "Thor: Asgard’s Legacy, dự kiến ra mắt năm 2026, tiếp tục câu chuyện của Thor (Chris Hemsworth) sau các sự kiện của Thor: Love and Thunder. Bộ phim khám phá nguồn gốc của Asgard và vai trò của Thor trong việc bảo vệ các vương quốc. Với sự tham gia của Loki (Tom Hiddleston), phim kết hợp thần thoại Bắc Âu và hành động hoành tráng. Đặt vé sớm qua các nền tảng như CGV hoặc Fandango!",
+      "summary": "Thor: Love and Thunder (2026) đưa Thor và Loki vào cuộc phiêu lưu thần thoại để bảo vệ Asgard, đầy hành động và cảm xúc.",
+      "image_url": "https://cdn.marvel.com/content/1x/thorloveandthunder_lob_mas_mob_02.jpg",
+      "related_movies": [
+        {
+          "movie_id": 11,
+          "movie_name": "Thor: Asgard’s Legacy"
+        }
+      ],
+      "read_time": "5",
+      "created_at": "2025-04-24T11:00:00Z",
+      "updated_at": "2025-04-24T11:00:00Z"
+    },
+    {
+      "id": "9",
+      "category": "Marvel",
+      "title": "Captain America: New Dawn - Bình Minh Mới",
+      "content": "Captain America: New Dawn, ra mắt đầu 2026, tiếp tục hành trình của Sam Wilson (Anthony Mackie) trong vai Captain America. Sau các sự kiện của Brave New World, Sam đối mặt với một âm mưu toàn cầu liên quan đến Red Hulk. Bộ phim kết hợp hành động, chính trị và tình cảm, làm nổi bật vai trò của Sam trong MCU. Hãy theo dõi thông tin từ Marvel Studios!",
+      "summary": "Captain America: New Dawn (2026) đưa Sam Wilson đối đầu âm mưu toàn cầu liên quan đến Red Hulk, tiếp nối vai trò Captain America.",
+      "image_url": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/2/13/239c780a659a40fea4a6f02219b1c112",
+      "related_movies": [
+        {
+          "movie_id": 12,
+          "movie_name": "Captain America: New Dawn"
+        }
+      ],
+      "read_time": "8",
+      "created_at": "2025-04-25T10:00:00Z",
+      "updated_at": "2025-04-25T10:00:00Z"
+    },
+    {
+      "id": "10",
+      "category": "Marvel",
+      "title": "Doctor Strange: Dimensions Unbound - Vũ Trụ Vỡ Tan",
+      "content": "Doctor Strange: Dimensions Unbound, dự kiến ra mắt giữa 2026, đưa Benedict Cumberbatch trở lại vai Doctor Strange. Bộ phim khám phá hậu quả của các sự kiện đa vũ trụ, với Strange hợp sức cùng Clea để ngăn chặn một thực thể hủy diệt. Với hiệu ứng hình ảnh mãn nhãn và câu chuyện bí ẩn, đây là bộ phim không thể bỏ qua. Đặt vé sớm qua Lotte Cinema hoặc MoMo!",
+      "summary": "Doctor Strange: Dimensions Unbound (2026) đưa Strange và Clea đối mặt thực thể hủy diệt trong cuộc chiến đa vũ trụ đầy bí ẩn.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sCDUujmBTOzqp9vXUD43FK58GORmEaqkiQ&s",
+      "related_movies": [
+        {
+          "movie_id": 13,
+          "movie_name": "Doctor Strange: Dimensions Unbound"
+        }
+      ],
+      "read_time": "7",
+      "created_at": "2025-04-25T12:00:00Z",
+      "updated_at": "2025-04-25T12:00:00Z"
+    },
+    {
+      "id": "11",
+      "category": "Vietnam",
+      "title": "Địa Đạo: Huyền Thoại Dưới Lòng Đất",
+      "content": "Địa Đạo, ra mắt ngày 25/04/2025, là bộ phim lịch sử Việt Nam kể về cuộc kháng chiến chống Pháp tại các địa đạo Củ Chi. Với sự tham gia của Trấn Thành và NSND Việt Anh, phim tái hiện chân thực cuộc sống và tinh thần bất khuất của quân dân Việt Nam. Được đầu tư kỹ lưỡng về bối cảnh và hiệu ứng, Địa Đạo hứa hẹn là tác phẩm đáng xem. Đặt vé tại CGV hoặc Lotte Cinema ngay hôm nay!",
+      "summary": "Địa Đạo (25/04/2025) tái hiện cuộc kháng chiến tại địa đạo Củ Chi, với diễn xuất của Trấn Thành và NSND Việt Anh, đầy cảm xúc và chân thực.",
+      "image_url": "https://i.ytimg.com/vi/-OGDDtsIBHA/maxresdefault.jpg",
+      "related_movies": [
+        {
+          "movie_id": 1,
+          "movie_name": "Địa Đạo"
+        }
+      ],
+      "read_time": "6",
+      "created_at": "2025-04-20T09:00:00Z",
+      "updated_at": "2025-04-20T09:00:00Z"
+    },
+    {
+      "id": "12",
+      "category": "Vietnam",
+      "title": "Mùa Hè Rực Rỡ - Hài Hước Lãng Mạn",
+      "content": "Mùa Hè Rực Rỡ, khởi chiếu 01/05/2025, là bộ phim hài lãng mạn Việt Nam với sự tham gia của Diệu Nhi và Isaac. Bộ phim kể về một nhóm bạn trẻ tổ chức một chuyến đi biển, dẫn đến những tình huống hài hước và cảm động. Với bối cảnh biển tuyệt đẹp và nhạc phim bắt tai, đây là lựa chọn lý tưởng cho mùa hè. Đặt vé qua MoMo hoặc CGV ngay!",
+      "summary": "Mùa Hè Rực Rỡ (01/05/2025) là phim hài lãng mạn Việt Nam, kể về chuyến đi biển đầy tiếng cười và cảm xúc của Diệu Nhi và Isaac.",
+      "image_url": "https://i.ytimg.com/vi/Dg_Xmigj6P8/maxresdefault.jpg",
+      "related_movies": [
+        {
+          "movie_id": 2,
+          "movie_name": "Mùa Hè Rực Rỡ"
+        }
+      ],
+      "read_time": "9",
+      "created_at": "2025-04-22T10:00:00Z",
+      "updated_at": "2025-04-22T10:00:00Z"
+    },
+    {
+      "id": "13",
+      "category": "Sci-fi",
+      "title": "Interstellar: Beyond Time - Hành Trình Xuyên Thời Gian",
+      "content": "Interstellar: Beyond Time, ra mắt tháng 6/2025, là phần tiếp theo của bộ phim kinh điển Interstellar. Bộ phim đưa khán giả vào một cuộc phiêu lưu mới xuyên không gian và thời gian, với sự tham gia của Matthew McConaughey. Với cốt truyện sâu sắc và hình ảnh mãn nhãn, đây là tác phẩm không thể bỏ qua. Đặt vé sớm qua Fandango hoặc Lotte Cinema!",
+      "summary": "Interstellar: Beyond Time (2025) tiếp nối hành trình xuyên không gian và thời gian với Matthew McConaughey, đầy sâu sắc và mãn nhãn.",
+      "image_url": "https://i.ytimg.com/vi/Dt9Oxi5rrXA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLANsFsaAOvseuhZf95fx1SuDvyPNw",
+      "related_movies": [
+        {
+          "movie_id": 3,
+          "movie_name": "Interstellar: Beyond Time"
+        }
+      ],
+      "read_time": "7",
+      "created_at": "2025-04-23T11:00:00Z",
+      "updated_at": "2025-04-23T11:00:00Z"
+    },
+    {
+      "id": "14",
+      "category": "Action",
+      "title": "Mission: Impossible - Final Reckoning",
+      "content": "Mission: Impossible - Final Reckoning, ra mắt tháng 7/2025, là phần mới nhất trong loạt phim hành động nổi tiếng với Tom Cruise trong vai Ethan Hunt. Bộ phim mang đến những pha hành động nghẹt thở và một âm mưu toàn cầu đe dọa thế giới. Với dàn diễn viên ấn tượng và đạo diễn tài năng, đây là bom tấn mùa hè không thể bỏ qua. Đặt vé qua CGV hoặc Fandango!",
+      "summary": "Mission: Impossible - Final Reckoning (2025) đưa Ethan Hunt vào cuộc chiến cuối cùng với hành động nghẹt thở và âm mưu toàn cầu.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadFR20_sU8E7JH7LNuF_Hu1RXxrsGYGJ_ZQ&s",
+      "related_movies": [
+        {
+          "movie_id": 4,
+          "movie_name": "Mission: Impossible - Final Reckoning"
+        }
+      ],
+      "read_time": "8",
+      "created_at": "2025-04-24T09:00:00Z",
+      "updated_at": "2025-04-24T09:00:00Z"
+    },
+    {
+      "id": "15",
+      "category": "Horror",
+      "title": "The Conjuring: Last Rites - Lời Nguyền Cuối",
+      "content": "The Conjuring: Last Rites, ra mắt tháng 10/2025, là phần cuối của loạt phim kinh dị nổi tiếng. Bộ phim theo chân Ed và Lorraine Warren trong vụ án ma quỷ cuối cùng của họ. Với không khí rùng rợn và diễn xuất đỉnh cao, đây là tác phẩm dành cho fan kinh dị. Đặt vé sớm qua Lotte Cinema hoặc MoMo để trải nghiệm!",
+      "summary": "The Conjuring: Last Rites (2025) đưa Ed và Lorraine Warren vào vụ án ma quỷ cuối cùng, đầy rùng rợn và kịch tính.",
+      "image_url": "https://i.ytimg.com/vi/f8-JBwwJGV4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAD25pRaDCxKTcJ9QPJHAgQP4nVYA",
+      "related_movies": [
+        {
+          "movie_id": 5,
+          "movie_name": "The Conjuring: Last Rites"
+        }
+      ],
+      "read_time": "6",
+      "created_at": "2025-04-25T11:00:00Z",
+      "updated_at": "2025-04-25T11:00:00Z"
+    },
+    {
+      "id": "16",
+      "category": "Comedy",
+      "title": "Superbad 2: Reunion - Tái Hợp Vui Nhộn",
+      "content": "Superbad 2: Reunion, ra mắt tháng 8/2025, đưa Seth Rogen và Jonah Hill trở lại trong một cuộc hội ngộ hài hước của nhóm bạn cũ. Bộ phim kể về những tình huống dở khóc dở cười khi họ cố gắng tổ chức một bữa tiệc hoành tráng. Với phong cách hài đặc trưng, đây là lựa chọn tuyệt vời cho mùa hè. Đặt vé qua Fandango hoặc CGV!",
+      "summary": "Superbad 2: Reunion (2025) đưa Seth Rogen và Jonah Hill vào cuộc hội ngộ hài hước, đầy tiếng cười và tình bạn.",
+      "image_url": "https://img4.hulu.com/user/v3/artwork/f861c096-88d3-4b6d-8b8a-9c6899a68a7e?base_image_bucket_name=image_manager&base_image=b90f47fd-b249-4b88-91da-e2f17b2179dc&region=US&format=webp&size=952x536",
+      "related_movies": [
+        {
+          "movie_id": 9,
+          "movie_name": "Superbad 2: Reunion"
+        }
+      ],
+      "read_time": "5",
+      "created_at": "2025-04-23T10:00:00Z",
+      "updated_at": "2025-04-23T10:00:00Z"
+    },
+    {
+      "id": "17",
+      "category": "Vietnam",
+      "title": "Lời Nguyền Dưới Lòng Sông - Kinh Dị Tâm Linh",
+      "content": "Lời Nguyền Dưới Lòng Sông, ra mắt 15/05/2025, là phim kinh dị tâm linh Việt Nam với sự tham gia của Ninh Dương Lan Ngọc và Quang Tuấn. Bộ phim kể về một ngôi làng bị ám bởi lời nguyền từ con sông bí ẩn, kéo theo hàng loạt sự kiện rùng rợn. Với không khí u ám và diễn xuất ấn tượng, phim hứa hẹn gây sốt. Đặt vé tại CGV hoặc MoMo ngay!",
+      "summary": "Lời Nguyền Dưới Lòng Sông (15/05/2025) kể về ngôi làng bị ám bởi lời nguyền từ con sông, với diễn xuất của Lan Ngọc và Quang Tuấn.",
+      "image_url": "https://phongcach24h.com/wp-content/uploads/2025/04/phim-kinh-di-sieu-nhien-duoi-day-ho-02.jpg",
+      "related_movies": [
+        {
+          "movie_id": 10,
+          "movie_name": "Lời Nguyền Dưới Lòng Sông"
+        }
+      ],
+      "read_time": "6",
+      "created_at": "2025-04-24T12:00:00Z",
+      "updated_at": "2025-04-24T12:00:00Z"
+    },
+    {
+      "id": "18",
+      "category": "Marvel",
+      "title": "Avengers: Secret Wars - Cuộc Chiến Bí Mật",
+      "content": "Avengers: Secret Wars, dự kiến ra mắt năm 2027, là đỉnh cao của Multiverse Saga với sự tham gia của dàn Avengers hùng hậu. Bộ phim đưa các anh hùng vào cuộc chiến cuối cùng chống lại một thế lực đa vũ trụ. Với quy mô hoành tráng và cốt truyện đầy bất ngờ, đây là bom tấn không thể bỏ qua. Theo dõi Marvel Studios để biết thêm chi tiết!",
+      "summary": "Avengers: Secret Wars (2027) đưa Avengers vào cuộc chiến đa vũ trụ cuối cùng, với quy mô hoành tráng và cốt truyện bất ngờ.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEWTYAREjAbSK-l5KrbVUfcRKZWj0MCS18Dg&s",
+      "related_movies": [
+        {
+          "movie_id": 8,
+          "movie_name": "Avengers: Secret Wars"
+        }
+      ],
+      "read_time": "9",
+      "created_at": "2025-04-25T09:00:00Z",
+      "updated_at": "2025-04-25T09:00:00Z"
+    },
+    {
+      "id": "19",
+      "category": "Sci-fi",
+      "title": "Dune: Messiah - Hành Trình Sa Mạc",
+      "content": "Dune: Messiah, ra mắt tháng 9/2025, tiếp nối câu chuyện của Paul Atreides (Timothée Chalamet) trong vũ trụ Dune. Bộ phim khám phá hậu quả của các quyết định của Paul và cuộc chiến giành quyền lực trên sa mạc. Với hình ảnh hoành tráng và diễn xuất đỉnh cao, đây là tác phẩm đáng mong đợi. Đặt vé qua Fandango hoặc Lotte Cinema!",
+      "summary": "Dune: Messiah (2025) tiếp nối hành trình của Paul Atreides trong cuộc chiến quyền lực trên sa mạc, đầy hoành tráng và sâu sắc.",
+      "image_url": "https://media.wired.com/photos/63f8532750ad95c618f6a934/16:9/w_1493,h_839,c_limit/Dune-Messiah-Geeks-Guide-Culture.jpg",
+      "related_movies": [
+        {
+          "movie_id": 11,
+          "movie_name": "Dune: Messiah"
+        }
+      ],
+      "read_time": "7",
+      "created_at": "2025-04-22T11:00:00Z",
+      "updated_at": "2025-04-22T11:00:00Z"
+    },
+    {
+      "id": "20",
+      "category": "Action",
+      "title": "The Expendables 5 - Biệt Đội Đánh Thuê",
+      "content": "The Expendables 5, ra mắt tháng 11/2025, đưa Sylvester Stallone và Jason Statham trở lại trong vai trò lãnh đạo biệt đội đánh thuê. Bộ phim mang đến những pha hành động bùng nổ và một âm mưu quốc tế đầy kịch tính. Với dàn sao hành động hùng hậu, đây là bom tấn dành cho fan thể loại. Đặt vé qua CGV hoặc Fandango!",
+      "summary": "The Expendables 5 (2025) đưa biệt đội đánh thuê của Stallone và Statham vào cuộc chiến quốc tế đầy hành động và kịch tính.",
+      "image_url": "https://pbs.twimg.com/media/Gc1x-veWUAAmIQv.jpg",
+      "related_movies": [
+        {
+          "movie_id": 12,
+          "movie_name": "The Expendables 5"
+        }
+      ],
+      "read_time": "4",
+      "created_at": "2025-04-23T12:00:00Z",
+      "updated_at": "2025-04-23T12:00:00Z"
+    },
+    {
+      "id": "21",
+      "category": "Horror",
+      "title": "Scream 7 - Tiếng Thét Cuối Cùng",
+      "content": "Scream 7, ra mắt tháng 10/2025, tiếp tục loạt phim kinh dị nổi tiếng với sự trở lại của Neve Campbell trong vai Sidney Prescott. Bộ phim mang đến một kẻ sát nhân Ghostface mới và những cú twist đầy bất ngờ. Với không khí căng thẳng và máu me, đây là lựa chọn hoàn hảo cho fan kinh dị. Đặt vé qua Lotte Cinema hoặc Fandango!",
+      "summary": "Scream 7 (2025) đưa Sidney Prescott đối mặt Ghostface mới với những cú twist bất ngờ, đầy căng thẳng và kinh dị.",
+      "image_url": "https://i.ytimg.com/vi/LcKw2Y14W2o/maxresdefault.jpg",
+      "related_movies": [
+        {
+          "movie_id": 13,
+          "movie_name": "Scream 7"
+        }
+      ],
+      "read_time": "5",
+      "created_at": "2025-04-25T10:00:00Z",
+      "updated_at": "2025-04-25T10:00:00Z"
+    },
+    {
+      "id": "22",
+      "category": "Comedy",
+      "title": "Zombieland 3: Road Trip - Hành Trình Xác Sống",
+      "content": "Zombieland 3: Road Trip, ra mắt tháng 9/2025, đưa Woody Harrelson và Jesse Eisenberg trở lại trong cuộc chiến hài hước với xác sống. Bộ phim theo chân nhóm bạn trên một hành trình xuyên nước Mỹ, đối mặt với những tình huống dở khóc dở cười. Với phong cách hài đặc trưng, đây là bom tấn mùa thu. Đặt vé qua CGV hoặc Fandango!",
+      "summary": "Zombieland 3: Road Trip (2025) đưa nhóm bạn vào hành trình hài hước xuyên Mỹ, đối mặt xác sống với tiếng cười bất tận.",
+      "image_url": "https://www.metro.us/wp-content/uploads/2020/03/will_there_be_a_zombieland_3.jpg?quality=51",
+      "related_movies": [
+        {
+          "movie_id": 6,
+          "movie_name": "Zombieland 3: Road Trip"
+        }
+      ],
+      "read_time": "5",
+      "created_at": "2025-04-23T09:00:00Z",
+      "updated_at": "2025-04-23T09:00:00Z"
+    },
+    {
+      "id": "23",
+      "category": "Sci-fi",
+      "title": "Star Wars: New Jedi Order - Kỷ Nguyên Mới",
+      "content": "Star Wars: New Jedi Order, ra mắt tháng 12/2025, đưa khán giả trở lại vũ trụ Star Wars với câu chuyện về Rey (Daisy Ridley) xây dựng lại Hội Jedi. Bộ phim mang đến những trận chiến không gian hoành tráng và khám phá số phận của các nhân vật mới. Với hiệu ứng hình ảnh đỉnh cao, đây là bom tấn cuối năm. Đặt vé qua Fandango hoặc Lotte Cinema!",
+      "summary": "Star Wars: New Jedi Order (2025) kể về hành trình của Rey xây dựng Hội Jedi mới, với trận chiến không gian và cốt truyện hấp dẫn.",
+      "image_url": "https://i.ytimg.com/vi/VLPZVvC5enk/maxresdefault.jpg",
+      "related_movies": [
+        {
+          "movie_id": 5,
+          "movie_name": "Star Wars: New Jedi Order"
+        }
+      ],
+      "read_time": "8",
+      "created_at": "2025-04-24T11:00:00Z",
+      "updated_at": "2025-04-24T11:00:00Z"
     }
   ],
   "Tickets": [
@@ -4321,7 +4520,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -4329,7 +4531,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 4,
@@ -4337,7 +4542,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -4345,7 +4553,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 5,
@@ -4353,7 +4564,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -4361,7 +4575,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 6,
@@ -4369,7 +4586,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -4377,7 +4597,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 7,
@@ -4385,7 +4608,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -4393,7 +4619,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 8,
@@ -4401,7 +4630,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -4409,7 +4641,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 9,
@@ -4417,7 +4652,10 @@
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -4425,7 +4663,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 10,
@@ -4437,7 +4678,10 @@
         "standard": 150000,
         "vip": 250000
       },
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
       "seat_reservations": [
@@ -4456,7 +4700,10 @@
         "standard": 150000,
         "vip": 250000
       },
-      "amenities": ["3D", "Lồng tiếng"],
+      "amenities": [
+        "3D",
+        "Lồng tiếng"
+      ],
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
       "seat_reservations": [
@@ -4470,7 +4717,10 @@
       "movie_id": "5",
       "screen_id": 1,
       "movie_name": "Tìm xác - Ma không đầu",
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00",
       "price": {
         "standard": 150000,
@@ -4489,8 +4739,10 @@
       "movie_id": "6",
       "screen_id": 1,
       "movie_name": "Một Bộ Phim Minecraft",
-      "amenities": ["IMAX", "Phụ đề"],
-
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T21:00",
       "price": {
         "standard": 150000,
@@ -4509,7 +4761,10 @@
       "movie_id": "7",
       "screen_id": 1,
       "movie_name": "Oán Linh Nhập Xác",
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-18T19:00",
       "price": {
         "standard": 150000,
@@ -4528,7 +4783,10 @@
       "movie_id": "4",
       "movie_name": "Tìm xác - Ma không đầu",
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T19:00",
       "price": {
         "standard": 150000,
@@ -4546,7 +4804,10 @@
       "id": "16",
       "movie_id": "11",
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T21:00",
       "price": {
         "standard": 150000,
@@ -4563,8 +4824,10 @@
       "id": "17",
       "movie_id": "11",
       "screen_id": 1,
-      
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T17:00",
       "price": {
         "standard": 150000,
@@ -4580,7 +4843,10 @@
     {
       "id": "18",
       "movie_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "screen_id": 1,
       "showtime": "2025-04-19T21:00",
@@ -4600,7 +4866,10 @@
       "id": "19",
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "movie_id": "6",
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "screen_id": 1,
       "showtime": "2025-04-19T21:00",
       "price": {
@@ -4620,7 +4889,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "movie_id": "6",
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T19:00",
       "price": {
         "standard": 150000,
@@ -4639,7 +4911,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "movie_id": "6",
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T19:00",
       "price": {
         "standard": 150000,
@@ -4658,7 +4933,10 @@
       "movie_id": "12",
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T19:00",
       "price": {
         "standard": 150000,
@@ -4677,7 +4955,10 @@
       "movie_id": "13",
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T17:00",
       "price": {
         "standard": 150000,
@@ -4696,7 +4977,10 @@
       "movie_id": "6",
       "screen_id": 1,
       "movie_name": "Biệt Đội Sấm Sét",
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T21:00",
       "price": {
         "standard": 150000,
@@ -4715,7 +4999,10 @@
       "movie_id": "2",
       "movie_name": "Lật Mặt 8: Vòng Tay Nắng",
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T22:00",
       "price": {
         "standard": 150000,
@@ -4733,7 +5020,10 @@
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T16:00:00Z",
       "price": {
         "standard": 120000,
@@ -4741,14 +5031,20 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["8", "9"]
+      "seat_reservations": [
+        "8",
+        "9"
+      ]
     },
     {
       "id": "87",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T19:00:00Z",
       "price": {
         "standard": 100000,
@@ -4766,7 +5062,10 @@
       "screen_id": 2,
       "id": "88",
       "theater_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -4774,7 +5073,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["12", "13"]
+      "seat_reservations": [
+        "12",
+        "13"
+      ]
     },
     {
       "id": "89",
@@ -4782,7 +5084,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -4790,14 +5095,20 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["14", "15"]
+      "seat_reservations": [
+        "14",
+        "15"
+      ]
     },
     {
       "id": "90",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T20:00:00Z",
       "price": {
         "standard": 100000,
@@ -4807,7 +5118,10 @@
       "updated_at": "2025-04-24T07:15:21.253Z",
       "theater_id": "1",
       "theater_name": "Lotte Kosmo",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": "91",
@@ -4815,7 +5129,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -4823,7 +5140,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19"]
+      "seat_reservations": [
+        "18",
+        "19"
+      ]
     },
     {
       "id": "92",
@@ -4831,7 +5151,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -4839,7 +5162,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": "93",
@@ -4847,7 +5173,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -4855,7 +5184,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4"]
+      "seat_reservations": [
+        "3",
+        "4"
+      ]
     },
     {
       "id": "94",
@@ -4863,7 +5195,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -4871,7 +5206,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["5", "6"]
+      "seat_reservations": [
+        "5",
+        "6"
+      ]
     },
     {
       "id": "95",
@@ -4879,7 +5217,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -4887,7 +5228,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["7", "8"]
+      "seat_reservations": [
+        "7",
+        "8"
+      ]
     },
     {
       "id": "96",
@@ -4895,7 +5239,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -4903,7 +5250,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["9", "10"]
+      "seat_reservations": [
+        "9",
+        "10"
+      ]
     },
     {
       "id": "97",
@@ -4911,7 +5261,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -4919,7 +5272,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     },
     {
       "id": "98",
@@ -4927,7 +5283,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -4935,7 +5294,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["13", "14"]
+      "seat_reservations": [
+        "13",
+        "14"
+      ]
     },
     {
       "id": "99",
@@ -4943,7 +5305,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -4951,7 +5316,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["15", "16"]
+      "seat_reservations": [
+        "15",
+        "16"
+      ]
     },
     {
       "id": 26,
@@ -4959,7 +5327,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T17:00:00Z",
       "price": {
         "standard": 150000,
@@ -4967,7 +5338,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["17", "18"]
+      "seat_reservations": [
+        "17",
+        "18"
+      ]
     },
     {
       "id": 27,
@@ -4975,7 +5349,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -4983,7 +5360,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["19", "20"]
+      "seat_reservations": [
+        "19",
+        "20"
+      ]
     },
     {
       "id": 28,
@@ -4991,7 +5371,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -4999,7 +5382,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 29,
@@ -5007,7 +5393,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5015,7 +5404,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4"]
+      "seat_reservations": [
+        "3",
+        "4"
+      ]
     },
     {
       "id": 30,
@@ -5023,7 +5415,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5031,7 +5426,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["5", "6"]
+      "seat_reservations": [
+        "5",
+        "6"
+      ]
     },
     {
       "id": 31,
@@ -5039,7 +5437,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5047,7 +5448,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["7", "8"]
+      "seat_reservations": [
+        "7",
+        "8"
+      ]
     },
     {
       "id": 32,
@@ -5055,7 +5459,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5063,7 +5470,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["9", "10"]
+      "seat_reservations": [
+        "9",
+        "10"
+      ]
     },
     {
       "id": 33,
@@ -5071,7 +5481,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5079,7 +5492,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     },
     {
       "id": 34,
@@ -5087,7 +5503,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5095,7 +5514,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["13", "14"]
+      "seat_reservations": [
+        "13",
+        "14"
+      ]
     },
     {
       "id": 35,
@@ -5103,7 +5525,10 @@
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5111,7 +5536,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["15", "16"]
+      "seat_reservations": [
+        "15",
+        "16"
+      ]
     },
     {
       "id": 36,
@@ -5119,7 +5547,10 @@
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5127,7 +5558,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["17", "18"]
+      "seat_reservations": [
+        "17",
+        "18"
+      ]
     },
     {
       "id": 37,
@@ -5135,7 +5569,10 @@
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-20T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5143,7 +5580,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["19", "20"]
+      "seat_reservations": [
+        "19",
+        "20"
+      ]
     },
     {
       "id": 38,
@@ -5151,7 +5591,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-21T10:00:00Z",
       "price": {
         "standard": 120000,
@@ -5159,7 +5602,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 39,
@@ -5167,7 +5613,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-21T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5175,7 +5624,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4"]
+      "seat_reservations": [
+        "3",
+        "4"
+      ]
     },
     {
       "id": 40,
@@ -5183,7 +5635,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-21T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5191,7 +5646,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["5", "6"]
+      "seat_reservations": [
+        "5",
+        "6"
+      ]
     },
     {
       "id": 41,
@@ -5199,7 +5657,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T10:00:00Z",
       "price": {
         "standard": 120000,
@@ -5207,7 +5668,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2", "3"]
+      "seat_reservations": [
+        "1",
+        "2",
+        "3"
+      ]
     },
     {
       "id": 42,
@@ -5215,7 +5680,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T13:00:00Z",
       "price": {
         "standard": 120000,
@@ -5223,7 +5691,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["4", "5"]
+      "seat_reservations": [
+        "4",
+        "5"
+      ]
     },
     {
       "id": 43,
@@ -5231,7 +5702,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T16:00:00Z",
       "price": {
         "standard": 120000,
@@ -5239,7 +5713,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7", "8"]
+      "seat_reservations": [
+        "6",
+        "7",
+        "8"
+      ]
     },
     {
       "id": 44,
@@ -5247,7 +5725,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T19:00:00Z",
       "price": {
         "standard": 120000,
@@ -5255,7 +5736,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["9", "10"]
+      "seat_reservations": [
+        "9",
+        "10"
+      ]
     },
     {
       "id": 45,
@@ -5263,7 +5747,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T10:00:00Z",
       "price": {
         "standard": 120000,
@@ -5271,7 +5758,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12", "13"]
+      "seat_reservations": [
+        "11",
+        "12",
+        "13"
+      ]
     },
     {
       "id": 46,
@@ -5279,7 +5770,10 @@
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["3D", "Phụ đề"],
+      "amenities": [
+        "3D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T13:00:00Z",
       "price": {
         "standard": 120000,
@@ -5287,7 +5781,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["14", "15"]
+      "seat_reservations": [
+        "14",
+        "15"
+      ]
     },
     {
       "id": 47,
@@ -5295,7 +5792,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -5303,7 +5803,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": 48,
@@ -5311,7 +5814,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -5319,7 +5825,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19", "20"]
+      "seat_reservations": [
+        "18",
+        "19",
+        "20"
+      ]
     },
     {
       "id": 49,
@@ -5327,7 +5837,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5335,7 +5848,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 50,
@@ -5343,7 +5859,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5351,7 +5870,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4", "5"]
+      "seat_reservations": [
+        "3",
+        "4",
+        "5"
+      ]
     },
     {
       "id": 51,
@@ -5359,7 +5882,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5367,7 +5893,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7"]
+      "seat_reservations": [
+        "6",
+        "7"
+      ]
     },
     {
       "id": 52,
@@ -5375,7 +5904,10 @@
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5383,7 +5915,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["8", "9", "10"]
+      "seat_reservations": [
+        "8",
+        "9",
+        "10"
+      ]
     },
     {
       "id": 53,
@@ -5391,7 +5927,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5399,7 +5938,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     },
     {
       "id": 54,
@@ -5407,7 +5949,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5415,7 +5960,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["13", "14", "15"]
+      "seat_reservations": [
+        "13",
+        "14",
+        "15"
+      ]
     },
     {
       "id": 55,
@@ -5423,7 +5972,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -5431,7 +5983,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": 56,
@@ -5439,7 +5994,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -5447,7 +6005,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19"]
+      "seat_reservations": [
+        "18",
+        "19"
+      ]
     },
     {
       "id": 57,
@@ -5455,7 +6016,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5463,7 +6027,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2", "3"]
+      "seat_reservations": [
+        "1",
+        "2",
+        "3"
+      ]
     },
     {
       "id": 58,
@@ -5471,7 +6039,10 @@
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -5479,7 +6050,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["4", "5"]
+      "seat_reservations": [
+        "4",
+        "5"
+      ]
     },
     {
       "id": 59,
@@ -5487,7 +6061,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5495,7 +6072,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7", "8"]
+      "seat_reservations": [
+        "6",
+        "7",
+        "8"
+      ]
     },
     {
       "id": 60,
@@ -5503,7 +6084,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5511,7 +6095,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["9", "10"]
+      "seat_reservations": [
+        "9",
+        "10"
+      ]
     },
     {
       "id": 61,
@@ -5519,7 +6106,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5527,7 +6117,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12", "13"]
+      "seat_reservations": [
+        "11",
+        "12",
+        "13"
+      ]
     },
     {
       "id": 62,
@@ -5535,7 +6129,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5543,7 +6140,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["14", "15"]
+      "seat_reservations": [
+        "14",
+        "15"
+      ]
     },
     {
       "id": 63,
@@ -5551,7 +6151,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5559,7 +6162,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": 64,
@@ -5567,7 +6173,10 @@
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5575,7 +6184,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19", "20"]
+      "seat_reservations": [
+        "18",
+        "19",
+        "20"
+      ]
     },
     {
       "id": 65,
@@ -5583,7 +6196,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -5591,7 +6207,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 66,
@@ -5599,7 +6218,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 4,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -5607,7 +6229,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4", "5"]
+      "seat_reservations": [
+        "3",
+        "4",
+        "5"
+      ]
     },
     {
       "id": 67,
@@ -5615,7 +6241,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5623,7 +6252,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7"]
+      "seat_reservations": [
+        "6",
+        "7"
+      ]
     },
     {
       "id": 68,
@@ -5631,7 +6263,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5639,7 +6274,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["8", "9", "10"]
+      "seat_reservations": [
+        "8",
+        "9",
+        "10"
+      ]
     },
     {
       "id": 69,
@@ -5647,7 +6286,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5655,7 +6297,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     },
     {
       "id": 70,
@@ -5663,7 +6308,10 @@
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5671,7 +6319,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["13", "14", "15"]
+      "seat_reservations": [
+        "13",
+        "14",
+        "15"
+      ]
     },
     {
       "id": 71,
@@ -5679,7 +6331,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5687,7 +6342,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": 72,
@@ -5695,7 +6353,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5703,7 +6364,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19", "20"]
+      "seat_reservations": [
+        "18",
+        "19",
+        "20"
+      ]
     },
     {
       "id": 73,
@@ -5711,7 +6376,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -5719,7 +6387,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 74,
@@ -5727,7 +6398,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -5735,7 +6409,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4", "5"]
+      "seat_reservations": [
+        "3",
+        "4",
+        "5"
+      ]
     },
     {
       "id": 75,
@@ -5743,7 +6421,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5751,7 +6432,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7"]
+      "seat_reservations": [
+        "6",
+        "7"
+      ]
     },
     {
       "id": 76,
@@ -5759,7 +6443,10 @@
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5767,7 +6454,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["8", "9", "10"]
+      "seat_reservations": [
+        "8",
+        "9",
+        "10"
+      ]
     },
     {
       "id": 77,
@@ -5775,7 +6466,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5783,7 +6477,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     },
     {
       "id": 78,
@@ -5791,7 +6488,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 1,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -5799,7 +6499,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["13", "14", "15"]
+      "seat_reservations": [
+        "13",
+        "14",
+        "15"
+      ]
     },
     {
       "id": 79,
@@ -5807,7 +6511,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T16:00:00Z",
       "price": {
         "standard": 150000,
@@ -5815,7 +6522,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["16", "17"]
+      "seat_reservations": [
+        "16",
+        "17"
+      ]
     },
     {
       "id": 80,
@@ -5823,7 +6533,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T21:00:00Z",
       "price": {
         "standard": 150000,
@@ -5831,7 +6544,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["18", "19", "20"]
+      "seat_reservations": [
+        "18",
+        "19",
+        "20"
+      ]
     },
     {
       "id": 81,
@@ -5839,7 +6556,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-24T11:00:00Z",
       "price": {
         "standard": 150000,
@@ -5847,7 +6567,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["1", "2"]
+      "seat_reservations": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": 82,
@@ -5855,7 +6578,10 @@
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-25T14:00:00Z",
       "price": {
         "standard": 150000,
@@ -5863,7 +6589,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["3", "4", "5"]
+      "seat_reservations": [
+        "3",
+        "4",
+        "5"
+      ]
     },
     {
       "id": 83,
@@ -5871,7 +6601,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T10:00:00Z",
       "price": {
         "standard": 150000,
@@ -5879,7 +6612,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["6", "7"]
+      "seat_reservations": [
+        "6",
+        "7"
+      ]
     },
     {
       "id": 84,
@@ -5887,7 +6623,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-22T13:00:00Z",
       "price": {
         "standard": 150000,
@@ -5895,7 +6634,11 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["8", "9", "10"]
+      "seat_reservations": [
+        "8",
+        "9",
+        "10"
+      ]
     },
     {
       "id": 85,
@@ -5903,7 +6646,10 @@
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 3,
       "screen_id": 1,
-      "amenities": ["IMAX", "Phụ đề"],
+      "amenities": [
+        "IMAX",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-23T19:00:00Z",
       "price": {
         "standard": 150000,
@@ -5911,7 +6657,10 @@
       },
       "created_at": "2025-04-17T10:00:00Z",
       "updated_at": "2025-04-17T10:00:00Z",
-      "seat_reservations": ["11", "12"]
+      "seat_reservations": [
+        "11",
+        "12"
+      ]
     }
   ],
   "Promotions": [
