@@ -161,7 +161,7 @@ const formatReleaseDate = (dateString) => {
           <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
         </li>
       </ul>
 
@@ -230,7 +230,7 @@ const formatReleaseDate = (dateString) => {
           <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
         </li>
         <li class="mt-10">
           <span v-if="isAuthenticated" @click="signOut" class="hover:text-blue-400 hover:font-semibold cursor-pointer">Sign out</span>

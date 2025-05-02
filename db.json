@@ -408,7 +408,7 @@
       "name": "Lotte Kosmo",
       "description": "Lịch chiếu phim Lotte Kosmo Tây Hồ - rạp Lotte toàn quốc đầy đủ & tiện lợi nhất. Rạp Lotte Kosmo Tây Hồ nằm ở Kosmo Tây Hồ - Xuân La, được xây dựng với tiêu chuẩn rạp Hollywood, chuẩn âm thanh Dolby 7.1, màn hình lớn, sắc nét. Lotte Kosmo Tây Hồ là 1 trong nhiều rạp chiếu phim của Lotte cinema ra mắt tại Hà Nội trong năm 2019. Lotte Kosmo Tây Hồ nằm trong khu phức hợp dân cư - dịch vụ nhộp nhịp với 3 tòa nhà.",
       "location": {
-        "lat": 21.076091255692376, 
+        "lat": 21.076091255692376,
         "lng": 105.81268882209055
       },
       "city": "Hà Nội",
@@ -3368,7 +3368,7 @@
         "lng": 105.783
       },
       "city": "Hà Nội",
-      "image": "https://cdn.xanhsm.com/2024/12/6cfdccc0-lotte-cinema-thang-long-12.jpg", 
+      "image": "https://cdn.xanhsm.com/2024/12/6cfdccc0-lotte-cinema-thang-long-12.jpg",
       "address": "Tầng 3 Big C, 222 Đ. Trần Duy Hưng, Trung Hoà, Cầu Giấy",
       "screens": [
         {
@@ -4111,7 +4111,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://mvj.vn/wp-content/uploads/2018/06/lottle-cantavil-quay-ve.jpg", 
+      "image": "https://mvj.vn/wp-content/uploads/2018/06/lottle-cantavil-quay-ve.jpg",
       "address": "Tầng 7, Cantavil Premier, Số 1 đường Song Hành, Xa lộ Hà Nội, P.An Phú, Q.2",
       "screens": [
         {
@@ -4204,7 +4204,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://khenphim.com/wp-content/uploads/2017/06/Lotte-Cinema-Cong-Hoa-sanh-2.jpg", 
+      "image": "https://khenphim.com/wp-content/uploads/2017/06/Lotte-Cinema-Cong-Hoa-sanh-2.jpg",
       "address": "Tầng 4, Pico Plaza, 20 Cộng Hòa, P.12, Q. Tân Bình",
       "screens": [
         {
@@ -4234,7 +4234,7 @@
         "lng": 105.783
       },
       "city": "Hồ Chí Minh",
-      "image": "https://cdn.xanhsm.com/2025/03/bc78b8cf-rap-chieu-phim-go-vap-2.jpg", 
+      "image": "https://cdn.xanhsm.com/2025/03/bc78b8cf-rap-chieu-phim-go-vap-2.jpg",
       "address": "Lotte Mart, 242 Đ. Nguyễn Văn Lượng, Phường 10, Gò Vấp",
       "screens": [
         {
@@ -7047,6 +7047,25 @@
       "valid_to": "2025-06-30",
       "created_at": "2025-04-17T07:00:00Z",
       "updated_at": "2025-04-17T07:00:00Z"
+    }
+  ],
+  "Contacts": [
+    {
+      "name": "Nguyễn Tuấn Huy",
+      "phone": "0912730122",
+      "email": "huy@gmail.com",
+      "service": "BUY GROUP TICKETS",
+      "area": {
+        "label": "Hồ Chí Minh",
+        "value": "Hồ Chí Minh"
+      },
+      "subArea": {
+        "label": "Lotte Gò Vấp",
+        "value": "7"
+      },
+      "details": "àghfadbsfngdnfbđàngmnfgángdmn dgsfndgfgđàng sd gs",
+      "agree": true,
+      "id": 1
     }
   ]
 }
