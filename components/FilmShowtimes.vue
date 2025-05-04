@@ -12,18 +12,18 @@
 
         <div v-if="showTrailer" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
           <div class="relative w-full max-w-4xl mx-4">
-            <button 
-              @click="closeTrailer" 
+            <button
+              @click="closeTrailer"
               class="absolute -top-10 right-0 text-white hover:text-gray-300"
             >
               <Icon name="heroicons:x-mark" class="w-8 h-8" />
             </button>
             <div class="aspect-video w-full">
-              <iframe 
-                :src="trailerEmbedUrl" 
-                class="w-full h-full" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              <iframe
+                :src="trailerEmbedUrl"
+                class="w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </div>
@@ -55,12 +55,12 @@
           <div class="flex items-center mb-3">
             <h4 class="font-semibold">All Showtimes</h4>
           </div>
-
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <ShowtimeItem
-              v-for="showtime in showtimesByDate" 
-              :key="showtime.id" 
-              :time="showtime.showtime" 
+              v-for="showtime in showtimesByDate"
+              :key="showtime.id"
+              :showtime_id="showtime.id"
+              :time="showtime.showtime"
               :screen="showtime.screen_id"
               :type="showtime.amenities"
             />
@@ -68,7 +68,6 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -87,7 +86,7 @@ const props = defineProps({
 });
 
 const hasShowtimes = computed(() => {
-  return props.movie.showtimes && props.movie.showtimes.length > 0 && 
+  return props.movie.showtimes && props.movie.showtimes.length > 0 &&
          props.movie.showtimes.some(showtime => {
            const showtimeDate = new Date(showtime.showtime);
            return showtimeDate.toLocaleString('en-GB', { month: 'short' }) === props.date.month &&
@@ -104,11 +103,12 @@ const showtimesByDate = computed(() => {
   });
 });
 
+console.log(showtimesByDate)
 
 const showTrailer = ref(false)
 const trailerEmbedUrl = computed(() => {
   if (!props.movie.trailerUrl) return ''
-  
+
   // Handle YouTube URLs
   if (props.movie.trailerUrl.includes('youtube.com/watch?v=')) {
     const videoId = props.movie.trailerUrl.split('v=')[1].split('&')[0]
@@ -126,7 +126,7 @@ function openTrailer(event) {
 
 function closeTrailer() {
   showTrailer.value = false
-  document.body.style.overflow = '' 
+  document.body.style.overflow = ''
 }
 
 onUnmounted(() => {
