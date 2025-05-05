@@ -25,7 +25,7 @@
             <p class="mb-4 text-white">
               Expect fireworks as director Jake Schreier's MCU Phase 5 grand finale throws a rogue's gallery of heroes into the fray, including Florence Pugh’s Yelena Belova and Sebastian Stan’s Bucky Barnes to face a cosmic threat.
             </p>
-            <NuxtLink :to="'/movies/10'" class="mt-4 text-blue-500 text-[18px] font-[600] flex items-center gap-1">
+            <NuxtLink :to="'/movie/10'" class="mt-4 text-blue-500 text-[18px] font-[600] flex items-center gap-1">
               Book tickets
               <Icon name="lucide:chevron-right" class="w-4 h-4"/>
             </NuxtLink>

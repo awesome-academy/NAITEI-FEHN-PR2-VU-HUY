@@ -4,7 +4,7 @@
     style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 48px), calc(100% - 48px) 100%, 0 100%)"
   >
     <div class="p-6">
-      <NuxtLink :to="`/promotions/${promotion.id}`">
+      <NuxtLink :to="`/promotion/${promotion.id}`">
         <NuxtImg 
           :src="promotion.imageUrl" 
           :alt="promotion.title" 
@@ -19,7 +19,7 @@
       <p class="mb-4 text-gray-500">
         Expires: {{ formatDate(promotion.expiryDate) }}
       </p>
-      <NuxtLink :to="`/promotions/${promotion.id}`" class="text-blue-400 hover:text-blue-500 font-[600] flex items-center">
+      <NuxtLink :to="`/promotion/${promotion.id}`" class="text-blue-400 hover:text-blue-500 font-[600] flex items-center">
         Find out more
         <Icon name="heroicons:chevron-right" class="w-4 h-4 ml-1" />
       </NuxtLink>
