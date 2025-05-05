@@ -135,7 +135,7 @@
         <!-- Submit Button -->
         <div class="mt-6 flex justify-end gap-2">
           <UButton
-            to="/movies_management"
+            to="/admin/movies_management"
             color="neutral"
             variant="solid"
             label="Cancel"
