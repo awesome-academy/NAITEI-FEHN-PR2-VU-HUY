@@ -7112,5 +7112,24 @@
       "created_at": "2025-04-17T07:00:00Z",
       "updated_at": "2025-04-17T07:00:00Z"
     }
+  ],
+  "Contacts": [
+    {
+      "name": "Nguyễn Tuấn Huy",
+      "phone": "0912730122",
+      "email": "huy@gmail.com",
+      "service": "BUY GROUP TICKETS",
+      "area": {
+        "label": "Hồ Chí Minh",
+        "value": "Hồ Chí Minh"
+      },
+      "subArea": {
+        "label": "Lotte Gò Vấp",
+        "value": "7"
+      },
+      "details": "àghfadbsfngdnfbđàngmnfgángdmn dgsfndgfgđàng sd gs",
+      "agree": true,
+      "id": 1
+    }
   ]
 }
