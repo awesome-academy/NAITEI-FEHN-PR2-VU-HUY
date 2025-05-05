@@ -61,22 +61,22 @@
               <td class="px-6 py-4 whitespace-nowrap text-right font-mactionedium">
                 <div class="flex items-center justify-center space-x-2">
                   <UButton
-                    v-if="ticket.status === 'pending'"
+                    v-if="showTicketsAction && ticket.status === 'pending'"
                     icon="i-el:ok-sign"
                     size="sm"
                     variant="solid"
                     class="flex items-center justify-center cursor-pointer text-green-600 hover:text-green-900 bg-green-100 hover:bg-green-200 rounded-full"
-                    @click="updateStatus(ticket.id, 'confirmed')"
+                    @click="updateStatus(ticket, 'confirmed')"
                   />
                   <UButton
-                    v-if="ticket.status === 'pending'"
+                    v-if="showTicketsAction && ticket.status === 'pending'"
                     icon="i-healthicons:no-24px"
                     size="sm"
                     variant="solid"
-                    @click="updateStatus(ticket.id, 'cancelled')"
+                    @click="updateStatus(ticket, 'cancelled')"
                     class="flex items-center justify-center cursor-pointer text-red-600 hover:text-red-900 bg-red-100 hover:bg-red-200 rounded-full"
                   />
-                  <p v-if="!isAdmin && !ticket.billLink" class="text-xs text-center">No image</p>
+                  <p v-if="!isAdmin && !ticket.bill_link" class="text-xs text-center">No image</p>
                   <!-- Bill Image Modal -->
                   <UModal v-model="isBillModalOpen" :ui="{ width: 'max-w-3xl' }">
                     <UButton
@@ -84,7 +84,7 @@
                       icon="i-mdi:eye"
                       size="sm"
                       variant="solid"
-                      @click="openBillImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLeEJ47c_Y9g5VeNDcUWmFMuvpjB4LsrR3ZQ&s')"
+                      @click="openBillImage(ticket?.bill_link)"
                       class="flex items-center justify-center cursor-pointer text-blue-600 hover:text-blue-900 bg-blue-100 hover:bg-blue-200 rounded-full"
                     />
 
@@ -94,17 +94,50 @@
                           <h2 class="text-lg font-semibold text-gray-100">Bill Image</h2>
 
                         </div>
-                        <div class="flex justify-center">
+                        <div class="flex flex-col space-y-2 justify-center">
                           <img
                             v-if="currentBillImage"
                             :src="currentBillImage"
                             alt="Bill Image"
-                            class="w-full object-contain rounded-lg"
+                            class="max-h-[500px] object-contain rounded-lg"
                             @error="handleImageError"
                           />
                           <div v-else class="text-center text-gray-400">
                             No image available
                           </div>
+
+                          <UModal v-if="ticket.user_id === user.id" v-model="isBillModalOpen" :ui="{ width: 'max-w-3xl' }" close-icon="i-lucide-arrow-right">
+                            <div class="flex items-center justify-center">
+                              <UButton
+                                trailing-icon="solar:pen-bold"
+                                variant="solid"
+                                class="flex items-center justify-center cursor-pointer text-blue-600 hover:text-blue-900 bg-blue-100 hover:bg-blue-200 rounded-full"
+                              >Edit</UButton>
+                            </div>
+
+                            <template #content>
+                              <div class="p-3">
+                                <label for="billImageLink" class="block text-sm font-medium mb-2 text-gray-100">
+                                  Bill Image Link
+                                </label>
+                                <UInput
+                                  v-model="currentBillImage"
+                                  type="url"
+                                  placeholder="https://example.com/bill.jpg"
+                                  color="secondary"
+                                  class="w-full"
+                                  leading-icon="ic:outline-link"
+                                />
+                                <UButton
+                                  variant="solid"
+                                  color="secondary"
+                                  @click="changeBillImage(ticket.id)"
+                                  class="cursor-pointer mt-4 rounded-full"
+                                >OK</UButton>
+                              </div>
+                            </template>
+                          </UModal>
+
                         </div>
                       </div>
                     </template>
@@ -222,7 +255,7 @@ const fetchTickets = async () => {
   error.value = null;
 
   try {
-    const response = await fetch(`http://localhost:3001/Tickets?_sort=-status${showTicketsAction.value ? '' : `&user_id=${user.value?.id}`}`);
+    const response = await fetch(`http://localhost:3001/Tickets?_sort=-status,-created_at${showTicketsAction.value ? '' : `&user_id=${user.value?.id}`}`);
     if (!response.ok) {
       throw new Error(`Failed to fetch tickets: ${response.statusText}`);
     }
@@ -271,7 +304,10 @@ const fetchShowtimeData = async () => {
   }
 };
 
-const updateStatus = async (ticketId, newStatus) => {
+const updateStatus = async (ticket, newStatus) => {
+  const ticketId = ticket?.id
+  const showtimeId = ticket?.showtime_id
+
   updating.value = ticketId;
   error.value = null;
 
@@ -294,6 +330,10 @@ const updateStatus = async (ticketId, newStatus) => {
       },
       body: JSON.stringify(updatedTicket)
     });
+
+    if (newStatus === 'cancelled') {
+      removeSeatReservation(showtimeId, ticket?.seat_code)
+    }
 
     if (!response.ok) {
       throw new Error(`Failed to update ticket: ${response.statusText}`);
@@ -342,10 +382,45 @@ const openBillImage = (billLink) => {
 const handleImageError = () => {
   toast.add({
     title: 'Error',
-    description: 'Failed to load bill image',
+    description: `Invalid bill image link: ${currentBillImage.value}`,
     color: 'error',
     icon: 'i-heroicons-x-circle'
   })
+}
+
+const changeBillImage = async (ticketId) => {
+  await $fetch(`http://localhost:3001/Tickets/${ticketId}`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: {
+      bill_link: currentBillImage.value,
+      updated_at: new Date().toISOString()
+    }
+  });
+
+  toast.add({
+    title: 'Bill image updated successfully!',
+    color: 'success',
+    icon: 'i-heroicons-check-circle'
+  })
+}
+
+const removeSeatReservation = async (showtimeId, seatName) => {
+  const showtimeData = await $fetch(`http://localhost:3001/Showtimes/${showtimeId}`);
+
+  const newOccupiedSeats = showtimeData.seat_reservations.filter((name) => name !== seatName)
+  await $fetch(`http://localhost:3001/Showtimes/${showtimeId}`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: {
+      seat_reservations: newOccupiedSeats,
+      updated_at: new Date().toISOString()
+    }
+  });
 }
 
 watch(searchQuery, () => {
