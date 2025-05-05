@@ -155,7 +155,7 @@ const formatReleaseDate = (dateString) => {
           <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
@@ -224,7 +224,7 @@ const formatReleaseDate = (dateString) => {
           <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
