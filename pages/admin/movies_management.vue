@@ -321,7 +321,7 @@ onMounted(fetchMovies)
                   {
                     label: 'Showtimes',
                     icon: 'material-symbols:calendar-clock-outline',
-                    to: `/movies/${movie.id}/showtimes`
+                    to: `/admin/movies/${movie.id}/showtimes`
                   },
                   {
                     label: 'Edit',

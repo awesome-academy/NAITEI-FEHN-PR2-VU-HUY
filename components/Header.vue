@@ -68,7 +68,12 @@ const items = ref(!isAdmin.value ?
       label: 'Profile',
       icon: 'i-lucide-user',
       to: '/profile'
-    }
+    },
+    {
+      label: 'Your tickets',
+      icon: 'i-ion:ticket',
+      to: '/tickets/'
+    },
   ] :
   [
     {
