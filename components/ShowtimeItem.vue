@@ -12,14 +12,17 @@
         <p class="text-xs">SCREEN {{ screen }}</p>
       </div>
     </div>
-    
+
     <div v-if="hasSpecialAmenities" class="absolute right-0 top-0 bottom-0 w-7 bg-pink-500 flex flex-col rounded-r-lg justify-center items-center">
       <div class="writing-vertical text-md whitespace-nowrap rotate-90"> {{ specialAmenities }}</div>
     </div>
-    
-    <button class="w-full mt-2 bg-blue-600 rounded-b-lg py-2">
+
+    <NuxtLink
+      class="w-full block text-left pl-3 bg-blue-600 rounded-b-lg py-1"
+      :to="`/ticketing?showtimeId=${showtime_id}`"
+    >
       Book Now
-    </button>
+    </NuxtLink>
   </div>
 </template>
 
@@ -36,9 +39,11 @@ const props = defineProps({
   type: {
     type: String,
     default: ''
+  },
+  showtime_id: {
+    type: [String, Number],
+    default: 45
   }
-
-
 });
 
 const formatShowtime = (time) => {

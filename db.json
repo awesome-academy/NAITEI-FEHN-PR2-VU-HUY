@@ -9,7 +9,7 @@
       "role": "user",
       "status": "active",
       "created_at": "2025-04-17T10:00:00Z",
-      "updated_at": "2025-04-25T03:17:20.528Z"
+      "updated_at": "2025-05-05T10:30:14.452Z"
     },
     {
       "id": "2",
@@ -603,7 +603,7 @@
               "name": "B11",
               "position": {
                 "x": 2,
-                "y": 111
+                "y": 11
               },
               "type": "standard"
             },
@@ -620,7 +620,7 @@
               "id": 23,
               "name": "B13",
               "position": {
-                "x": 3,
+                "x": 2,
                 "y": 13
               },
               "type": "standard"
@@ -629,7 +629,7 @@
               "id": 24,
               "name": "B14",
               "position": {
-                "x": 3,
+                "x": 2,
                 "y": 14
               },
               "type": "standard"
@@ -1330,7 +1330,7 @@
               "name": "B11",
               "position": {
                 "x": 2,
-                "y": 111
+                "y": 11
               },
               "type": "standard"
             },
@@ -2073,7 +2073,7 @@
               "name": "B11",
               "position": {
                 "x": 2,
-                "y": 111
+                "y": 11
               },
               "type": "standard"
             },
@@ -2816,7 +2816,7 @@
               "name": "B11",
               "position": {
                 "x": 2,
-                "y": 111
+                "y": 11
               },
               "type": "standard"
             },
@@ -3559,7 +3559,7 @@
               "name": "B11",
               "position": {
                 "x": 2,
-                "y": 111
+                "y": 11
               },
               "type": "standard"
             },
@@ -4817,11 +4817,123 @@
       "type": "standard",
       "created_at": "2025-04-25T03:22:31.014648Z",
       "updated_at": "2025-04-25T03:22:31.014648Z"
+    },
+    {
+      "id": "848c",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "A2",
+      "status": "pending",
+      "payment_method": "credit_card",
+      "price": 200000,
+      "type": "vip",
+      "created_at": "2025-05-05T10:18:19.838Z",
+      "updated_at": "2025-05-05T11:34:06.694Z",
+      "bill_link": "https://files.betacorp.vn/media%2fimages%2f2025%2f03%2f31%2f400x633%2D24%2D165808%2D310325%2D29.jpg"
+    },
+    {
+      "id": "e091",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "B4",
+      "status": "pending",
+      "payment_method": "credit_card",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:18:19.838Z",
+      "updated_at": "2025-05-05T10:18:19.838Z",
+      "bill_link": "afisadjfsdfsdf"
+    },
+    {
+      "id": "2ac8",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "B6",
+      "status": "pending",
+      "payment_method": "credit_card",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:35:09.468Z",
+      "updated_at": "2025-05-05T10:35:09.468Z",
+      "bill_link": null
+    },
+    {
+      "id": "96b7",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "B7",
+      "status": "cancelled",
+      "payment_method": "credit_card",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:35:09.468Z",
+      "updated_at": "2025-05-05T11:02:17.612Z",
+      "bill_link": null
+    },
+    {
+      "id": "2db3",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "C11",
+      "status": "pending",
+      "payment_method": "cash",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:37:37.418Z",
+      "updated_at": "2025-05-05T10:37:37.418Z",
+      "bill_link": null
+    },
+    {
+      "id": "624d",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "C13",
+      "status": "pending",
+      "payment_method": "cash",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:37:37.418Z",
+      "updated_at": "2025-05-05T10:37:37.418Z",
+      "bill_link": null
+    },
+    {
+      "id": "37a7",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "B13",
+      "status": "pending",
+      "payment_method": "cash",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T10:37:37.418Z",
+      "updated_at": "2025-05-05T10:37:37.418Z",
+      "bill_link": null
+    },
+    {
+      "id": "2663",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "A10",
+      "status": "cancelled",
+      "payment_method": "cash",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-05-05T11:12:44.784Z",
+      "updated_at": "2025-05-05T11:14:37.612Z",
+      "bill_link": null
     }
   ],
   "Showtimes": [
     {
-      "id": 1,
+      "id": "1",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
@@ -4832,15 +4944,20 @@
         "vip": 200000
       },
       "created_at": "2025-04-17T10:00:00Z",
-      "updated_at": "2025-04-17T10:00:00Z",
+      "updated_at": "2025-05-05T11:14:37.760Z",
       "seat_reservations": [
         "11",
-        "12"
+        "12",
+        "16",
+        "17",
+        "35",
+        "37",
+        "23"
       ],
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 2,
+      "id": "2",
       "movie_id": "2",
       "screen_id": 1,
       "showtime": "2025-04-18T21:00",
@@ -4848,15 +4965,15 @@
         "standard": 150000,
         "vip": 250000
       },
-      "created_at": "2025-04-24T06:49:05.413Z",
-      "updated_at": "2025-04-24T06:49:05.414Z",
+      "created_at": "2025-05-05T10:31:14.770Z",
+      "updated_at": "2025-05-05T10:31:14.770Z",
       "seat_reservations": [],
       "theater_id": "1",
       "movie_name": "Lật Mặt 8: Vòng Tay Nắng",
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 3,
+      "id": "3",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
@@ -4879,7 +4996,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 4,
+      "id": "4",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
@@ -4902,7 +5019,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 5,
+      "id": "5",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 3,
@@ -4925,7 +5042,7 @@
       "theater_name": "Lotte Hà Đông"
     },
     {
-      "id": 6,
+      "id": "6",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 3,
@@ -4948,7 +5065,7 @@
       "theater_name": "Lotte Hà Đông"
     },
     {
-      "id": 7,
+      "id": "7",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
@@ -4971,7 +5088,7 @@
       "theater_name": "Lotte Thăng Long"
     },
     {
-      "id": 8,
+      "id": "8",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 4,
@@ -4994,7 +5111,7 @@
       "theater_name": "Lotte Thăng Long"
     },
     {
-      "id": 9,
+      "id": "9",
       "movie_id": 9,
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 1,
@@ -5017,7 +5134,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 10,
+      "id": "10",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "screen_id": 1,
@@ -5177,8 +5294,10 @@
       "id": "17",
       "movie_id": "11",
       "screen_id": 1,
-
-      "amenities": ["2D", "Phụ đề"],
+      "amenities": [
+        "2D",
+        "Phụ đề"
+      ],
       "showtime": "2025-04-19T17:00",
       "price": {
         "standard": 150000,
@@ -5366,8 +5485,8 @@
         "standard": 150000,
         "vip": 200000
       },
-      "created_at": "2025-04-24T06:49:05.500Z",
-      "updated_at": "2025-04-24T06:49:05.500Z",
+      "created_at": "2025-05-05T10:31:14.815Z",
+      "updated_at": "2025-05-05T10:31:14.815Z",
       "seat_reservations": [],
       "theater_id": "1",
       "theater_name": "Lotte Kosmo"
@@ -5692,7 +5811,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 26,
+      "id": "26",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 3,
@@ -5715,7 +5834,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 27,
+      "id": "27",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 4,
@@ -5738,7 +5857,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 28,
+      "id": "28",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 4,
@@ -5761,7 +5880,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 29,
+      "id": "29",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
@@ -5784,7 +5903,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 30,
+      "id": "30",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 4,
@@ -5807,7 +5926,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 31,
+      "id": "31",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
@@ -5830,7 +5949,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 32,
+      "id": "32",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 4,
@@ -5853,7 +5972,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 33,
+      "id": "33",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
@@ -5876,7 +5995,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 34,
+      "id": "34",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
@@ -5899,7 +6018,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 35,
+      "id": "35",
       "movie_id": 9,
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 2,
@@ -5922,7 +6041,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 36,
+      "id": "36",
       "movie_id": 9,
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 2,
@@ -5945,7 +6064,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 37,
+      "id": "37",
       "movie_id": 9,
       "movie_name": "Pororo: Thám Hiểm Đại Dương Xanh",
       "theater_id": 1,
@@ -5968,7 +6087,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 38,
+      "id": "38",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
@@ -5990,7 +6109,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": "39",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
@@ -6013,7 +6132,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 40,
+      "id": "40",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
@@ -6036,7 +6155,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 41,
+      "id": "41",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
@@ -6060,7 +6179,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 42,
+      "id": "42",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
@@ -6083,7 +6202,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 43,
+      "id": "43",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 1,
@@ -6107,7 +6226,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 44,
+      "id": "44",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 2,
@@ -6130,7 +6249,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 45,
+      "id": "45",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 2,
@@ -6154,7 +6273,7 @@
       "theater_name": "Lotte Tây Hồ"
     },
     {
-      "id": 46,
+      "id": "46",
       "movie_id": 1,
       "movie_name": "Địa Đạo: Mặt Trời Trong Bóng Tối",
       "theater_id": 3,
@@ -6177,7 +6296,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 47,
+      "id": "47",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 1,
@@ -6200,7 +6319,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 48,
+      "id": "48",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 1,
@@ -6224,7 +6343,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 49,
+      "id": "49",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
@@ -6247,7 +6366,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 50,
+      "id": "50",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 2,
@@ -6271,7 +6390,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 51,
+      "id": "51",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 3,
@@ -6294,7 +6413,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 52,
+      "id": "52",
       "movie_id": 2,
       "movie_name": "Lật Mặt 8: Vòng tay nắng",
       "theater_id": 3,
@@ -6318,7 +6437,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 53,
+      "id": "53",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
@@ -6341,7 +6460,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 54,
+      "id": "54",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 2,
@@ -6365,7 +6484,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 55,
+      "id": "55",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
@@ -6388,7 +6507,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 56,
+      "id": "56",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 3,
@@ -6411,7 +6530,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 57,
+      "id": "57",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 4,
@@ -6435,7 +6554,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 58,
+      "id": "58",
       "movie_id": 3,
       "movie_name": "Cưới Ma Giải Hạn",
       "theater_id": 4,
@@ -6458,7 +6577,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 59,
+      "id": "59",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
@@ -6482,7 +6601,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 60,
+      "id": "60",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 3,
@@ -6505,12 +6624,11 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 61,
+      "id": "61",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 4,
       "screen_id": 1,
-
       "amenities": [
         "IMAX",
         "Phụ đề"
@@ -6530,7 +6648,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 62,
+      "id": "62",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 4,
@@ -6553,7 +6671,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 63,
+      "id": "63",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
@@ -6576,7 +6694,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 64,
+      "id": "64",
       "movie_id": 4,
       "movie_name": "Tìm xác - Ma không đầu",
       "theater_id": 2,
@@ -6600,7 +6718,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 65,
+      "id": "65",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 4,
@@ -6623,7 +6741,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 66,
+      "id": "66",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 4,
@@ -6647,7 +6765,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 67,
+      "id": "67",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 2,
@@ -6670,7 +6788,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 68,
+      "id": "68",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 2,
@@ -6694,7 +6812,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 69,
+      "id": "69",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 1,
@@ -6717,7 +6835,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 70,
+      "id": "70",
       "movie_id": 5,
       "movie_name": "Mẹ Quỷ Con Ma",
       "theater_id": 1,
@@ -6741,7 +6859,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 71,
+      "id": "71",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
@@ -6764,7 +6882,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 72,
+      "id": "72",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
@@ -6788,7 +6906,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 73,
+      "id": "73",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 1,
@@ -6811,7 +6929,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 74,
+      "id": "74",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 1,
@@ -6835,7 +6953,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 75,
+      "id": "75",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
@@ -6858,7 +6976,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 76,
+      "id": "76",
       "movie_id": 6,
       "movie_name": "Một Bộ Phim Minecraft",
       "theater_id": 2,
@@ -6882,7 +7000,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 77,
+      "id": "77",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 1,
@@ -6905,7 +7023,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 78,
+      "id": "78",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 1,
@@ -6929,7 +7047,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 79,
+      "id": "79",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
@@ -6952,7 +7070,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 80,
+      "id": "80",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 2,
@@ -6976,7 +7094,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 81,
+      "id": "81",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 3,
@@ -6999,7 +7117,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 82,
+      "id": "82",
       "movie_id": 7,
       "movie_name": "Oán Linh Nhập Xác",
       "theater_id": 3,
@@ -7023,7 +7141,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 83,
+      "id": "83",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
@@ -7046,7 +7164,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 84,
+      "id": "84",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 2,
@@ -7070,7 +7188,7 @@
       "theater_name": "Lotte Kosmo"
     },
     {
-      "id": 85,
+      "id": "85",
       "movie_id": 8,
       "movie_name": "Panor: Tà Thuật Huyết Ngãi",
       "theater_id": 3,
@@ -7090,6 +7208,22 @@
         "11",
         "12"
       ],
+      "theater_name": "Lotte Kosmo"
+    },
+    {
+      "id": "8b72",
+      "movie_id": "2",
+      "movie_name": "Lật Mặt 8: Vòng Tay Nắng",
+      "screen_id": 1,
+      "showtime": "2025-05-13T22:22",
+      "price": {
+        "standard": 100000,
+        "vip": 120000
+      },
+      "created_at": "2025-05-05T10:31:14.868Z",
+      "updated_at": "2025-05-05T10:31:14.868Z",
+      "seat_reservations": [],
+      "theater_id": "1",
       "theater_name": "Lotte Kosmo"
     }
   ],
@@ -7241,7 +7375,7 @@
       },
       "details": "àghfadbsfngdnfbđàngmnfgángdmn dgsfndgfgđàng sd gs",
       "agree": true,
-      "id": 1
+      "id": "1"
     }
   ]
 }
