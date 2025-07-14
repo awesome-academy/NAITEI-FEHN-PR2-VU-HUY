@@ -1,0 +1,20 @@
+{
+  "header": {
+    "language": "Language",
+    "movies": "Movies",
+    "theaters": "Theaters",
+    "promotions": "Promotions",
+    "news": "News",
+    "contact": "Contact",
+    "login": "Login",
+    "signOut": "Sign out"
+  },
+  "home": {
+    "topFilms": "TOP FILMS",
+    "bookTickets": "Book tickets",
+    "latestNews": "LATEST MOVIE NEWS",
+    "browseAllNews": "Browse All News",
+    "promotions": "PROMOTIONS",
+    "seeMorePromotions": "See More Of Our Promotions"
+  }
+}
