@@ -4917,6 +4917,20 @@
       "bill_link": null
     },
     {
+      "id": "14d1",
+      "user_id": "1",
+      "user_name": "Nguyen Van A",
+      "showtime_id": "1",
+      "seat_code": "B16",
+      "status": "confirmed",
+      "payment_method": "cash",
+      "price": 120000,
+      "type": "standard",
+      "created_at": "2025-07-14T10:37:37.418Z",
+      "updated_at": "2025-07-14T10:37:37.418Z",
+      "bill_link": null
+    },
+    {
       "id": "2663",
       "user_id": "1",
       "user_name": "Nguyen Van A",
