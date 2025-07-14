@@ -1,0 +1,20 @@
+{
+  "header": {
+    "language": "Ngôn ngữ",
+    "movies": "Phim",
+    "theaters": "Rạp chiếu",
+    "promotions": "Khuyến mãi",
+    "news": "Tin tức",
+    "contact": "Liên hệ",
+    "login": "Đăng nhập",
+    "signOut": "Đăng xuất"
+  },
+  "home": {
+    "topFilms": "PHIM NỔI BẬT",
+    "bookTickets": "Đặt vé",
+    "latestNews": "TIN TỨC PHIM MỚI NHẤT",
+    "browseAllNews": "Xem tất cả tin tức",
+    "promotions": "KHUYẾN MÃI",
+    "seeMorePromotions": "Xem thêm khuyến mãi"
+  }
+}

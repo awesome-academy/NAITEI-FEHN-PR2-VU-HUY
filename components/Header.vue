@@ -10,6 +10,27 @@ const isLoading = ref(false);
 
 const toast = useToast()
 const { isAuthenticated, isAdmin, logout } = useAuth()
+const { locale, locales, setLocale } = useI18n()
+
+// Tạo danh sách ngôn ngữ có thể chọn
+const availableLocales = computed(() => {
+  return (locales.value || [])
+})
+
+const localeOptions = computed(() => {
+  return availableLocales.value.map(l => ({
+    label: l.code === 'en' ? '🇺🇸 English' : '🇻🇳 Tiếng Việt',
+    value: l.code
+  }))
+})
+
+// Theo dõi và cập nhật locale khi thay đổi
+const selectedLocale = computed({
+  get: () => locale.value,
+  set: (value) => {
+    setLocale(value)
+  }
+})
 
 let debounceTimer = null;
 
@@ -154,30 +175,45 @@ const formatReleaseDate = (dateString) => {
 
       <ul class="hidden md:flex items-start p-4 md:space-x-8 lg:space-x-10">
         <li>
-          <NuxtLink to="/movies" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
+          <NuxtLink to="/movies" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.movies') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
+          <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.theaters') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.promotions') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
+          <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.news') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.contact') }}</NuxtLink>
         </li>
       </ul>
 
       <div class="flex justify-center items-center">
+        <!-- Language Switcher -->
+        <USelect
+          v-model="selectedLocale"
+          :items="localeOptions"
+          size="sm"
+          color="gray"
+          variant="outline"
+          :ui="{
+            width: 'w-20',
+            background: 'bg-transparent',
+            icon: { trailing: { name: 'heroicons:language' } }
+          }"
+          class="mr-2"
+        />
+
         <ClientOnly>
           <NuxtLink
             v-if="!isAuthenticated"
             to="/login"
             class="hidden md:block mr-2 hover:text-blue-400 hover:font-semibold"
           >
-            Login
+            {{ $t('header.login') }}
           </NuxtLink>
           <div v-else class="flex items-center">
             <UDropdownMenu
@@ -198,7 +234,7 @@ const formatReleaseDate = (dateString) => {
                 class="mr-3 cursor-pointer"
               />
             </UDropdownMenu>
-            <span @click="signOut" class="hidden md:block cursor-pointer mr-2 hover:text-blue-400 hover:font-semibold">Sign out</span>
+            <span @click="signOut" class="hidden md:block cursor-pointer mr-2 hover:text-blue-400 hover:font-semibold">{{ $t('header.signOut') }}</span>
           </div>
         </ClientOnly>
 
@@ -223,23 +259,38 @@ const formatReleaseDate = (dateString) => {
     >
       <ul class="flex flex-col items-start p-4 space-y-10">
         <li>
-          <NuxtLink to="/movies" class="hover:text-blue-400 hover:font-semibold">Movies</NuxtLink>
+          <NuxtLink to="/movies" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.movies') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">Theaters</NuxtLink>
+          <NuxtLink to="/cinemas" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.theaters') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">Promotions</NuxtLink>
+          <NuxtLink to="/promotions" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.promotions') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">News</NuxtLink>
+          <NuxtLink to="/news" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.news') }}</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">Contact</NuxtLink>
+          <NuxtLink to="/contact" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.contact') }}</NuxtLink>
+        </li>
+        <!-- Language Switcher for mobile -->
+        <li>
+          <div class="flex items-center space-x-2">
+            <span>{{ $t('header.language') }}:</span>
+            <USelect
+              v-model="selectedLocale"
+              :items="localeOptions"
+              size="sm"
+              color="gray"
+              variant="outline"
+              :ui="{ background: 'bg-transparent' }"
+              class="w-20"
+            />
+          </div>
         </li>
         <li class="mt-10">
-          <span v-if="isAuthenticated" @click="signOut" class="hover:text-blue-400 hover:font-semibold cursor-pointer">Sign out</span>
-          <NuxtLink v-else to="/login" class="hover:text-blue-400 hover:font-semibold">Login</NuxtLink>
+          <span v-if="isAuthenticated" @click="signOut" class="hover:text-blue-400 hover:font-semibold cursor-pointer">{{ $t('header.signOut') }}</span>
+          <NuxtLink v-else to="/login" class="hover:text-blue-400 hover:font-semibold">{{ $t('header.login') }}</NuxtLink>
         </li>
       </ul>
     </div>

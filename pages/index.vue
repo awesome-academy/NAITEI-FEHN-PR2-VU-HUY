@@ -4,7 +4,7 @@
   
     <!-- Top Films Section -->
     <div class="max-w-6xl mx-auto px-4 py-8">
-      <h2 class="text-3xl font-bold text-center mb-2">TOP FILMS</h2>
+      <h2 class="text-3xl font-bold text-center mb-2">{{ $t('home.topFilms') }}</h2>
       <div class="border-y-2 border-blue-600 w-20 h-1.5 mb-10 mx-auto"></div>
       
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -23,10 +23,10 @@
           <div class="absolute inset-0 flex flex-col justify-center px-24 pr-[66%]">
             <h3 class="font-bold text-[20px] mb-4 text-white">Thunderbolts*</h3>
             <p class="mb-4 text-white">
-              Expect fireworks as director Jake Schreier's MCU Phase 5 grand finale throws a rogue's gallery of heroes into the fray, including Florence Pugh’s Yelena Belova and Sebastian Stan’s Bucky Barnes to face a cosmic threat.
+              Expect fireworks as director Jake Schreier's MCU Phase 5 grand finale throws a rogue's gallery of heroes into the fray, including Florence Pugh's Yelena Belova and Sebastian Stan's Bucky Barnes to face a cosmic threat.
             </p>
             <NuxtLink :to="'/movie/10'" class="mt-4 text-blue-500 text-[18px] font-[600] flex items-center gap-1">
-              Book tickets
+              {{ $t('home.bookTickets') }}
               <Icon name="lucide:chevron-right" class="w-4 h-4"/>
             </NuxtLink>
           </div>
@@ -35,7 +35,7 @@
     </div>
     
     <div class="max-w-7xl mx-auto px-4 py-12">
-      <h2 class="text-3xl font-bold text-center mb-2">LATEST MOVIE NEWS</h2>
+      <h2 class="text-3xl font-bold text-center mb-2">{{ $t('home.latestNews') }}</h2>
       <div class="border-y-2 border-blue-600 w-20 h-1.5 mb-10 mx-auto"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -52,14 +52,14 @@
           class="bg-blue-800 hover:bg-blue-900 text-white px-6 py-4 font-medium "
           style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%)"
         >
-          Browse All News
+          {{ $t('home.browseAllNews') }}
         </NuxtLink>
       </div>
     </div>
     
     <!-- Offers & Competitions Section -->
     <div class="max-w-7xl mx-auto px-4 py-12">
-      <h2 class="text-3xl font-bold text-center mb-2">PROMOTIONS</h2>
+      <h2 class="text-3xl font-bold text-center mb-2">{{ $t('home.promotions') }}</h2>
       <div class="border-y-2 border-blue-600 w-20 h-1.5 mb-10 mx-auto"></div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -76,7 +76,7 @@
           class="bg-blue-800 hover:bg-blue-900 text-white px-6 py-4 font-medium "
           style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%)"
         >
-          See More Of Our Promotions
+          {{ $t('home.seeMorePromotions') }}
         </NuxtLink>
       </div>
     </div>
